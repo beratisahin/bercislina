@@ -1,0 +1,23 @@
+.contact{
+  
+    width: 100%;
+    display: block;
+    
+
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+
+    .iletisimegec{
+        font-size: medium !important;
+        font-weight: bold !important;
+     
+    }
+    .yardımcı{
+        font-size: small !important;
+    }
+
+   
+
+}

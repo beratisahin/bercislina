@@ -1,0 +1,31 @@
+.hizmet-text{
+    font-size: small !important;
+    text-align: justify !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+.hizmet-title{
+    font-size: large !important;
+    color:#C92798 !important;  
+    text-align: center !important;  
+}
+.hizmet-photo{
+    width:75% !important;
+    height:30rem !important;
+    margin:auto !important;
+    margin-top: 2rem !important;
+    border-radius: 1rem !important;
+    
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 994px) {
+    
+    .hizmet-photo{
+        width:90% !important;
+        height:15rem !important;
+        
+        
+    }
+}
+  

@@ -1,0 +1,42 @@
+
+
+.icon_top{
+    font-size: xx-large !important;
+    
+    margin-left: 1rem !important;
+}
+
+.icon_top:hover{
+    color:  darkblue !important;
+}
+.firma_ismi{
+    text-decoration: none !important;
+
+}
+.firma_ismi:hover{
+    
+    text-decoration: none !important;
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 994px) {
+    .icon_top{
+        font-size: x-large !important;
+        margin-left: 0.1rem !important;
+    }
+    .top_image{
+        height: 8rem !important;
+        margin-left: -3rem !important;
+    }
+    .firma_ismi{
+        display: none !important;
+    }
+    .medya-div{
+        
+        margin-top:1rem !important;
+        
+    }
+   
+  
+  }

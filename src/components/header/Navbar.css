@@ -1,0 +1,49 @@
+.navbar-nav li{
+    list-style-type:none;
+  
+}
+.dropdown-item{
+  color:darkblue;
+
+
+}
+.nav-link{
+  margin-left: 2rem;
+}
+
+.nav-link:hover{
+  color: #C92798 !important;
+
+}
+.dropdown-menu{
+  background-color: #28304d !important;
+}
+
+.menu-item-link{
+  text-decoration: none !important;
+  color:white !important;
+}
+
+.menu-item-link:hover{
+  
+  background-color: white !important;
+  color:#28304d !important;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 994px) {
+  .row{
+    justify-content: flex-end !important;
+  }
+  .dropdown-menu{
+    background-color: #4682B4 !important;
+  }
+  .dropdown-toggle{
+    font-size: medium !important;
+  }
+  .menu-item-link2{
+    font-size: medium !important;
+  }
+  
+}
+
