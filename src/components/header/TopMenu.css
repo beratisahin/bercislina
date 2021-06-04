@@ -1,13 +1,13 @@
 
 
 .icon_top{
-    font-size: xx-large !important;
-    
+    font-size: x-large !important;
+    color:#C92798 !important;
     margin-left: 1rem !important;
 }
 
 .icon_top:hover{
-    color:  darkblue !important;
+    color:#4682B4 !important;
 }
 .firma_ismi{
     text-decoration: none !important;
@@ -16,6 +16,10 @@
 .firma_ismi:hover{
     
     text-decoration: none !important;
+}
+.top_icon_info{
+    font-size: medium !important;
+    color:black !important;
 }
 
 
@@ -32,10 +36,8 @@
     .firma_ismi{
         display: none !important;
     }
-    .medya-div{
-        
-        margin-top:1rem !important;
-        
+    .top_icon_info{
+        display: none !important;
     }
    
   
