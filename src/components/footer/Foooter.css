@@ -26,6 +26,12 @@ ul li {
 .icon:hover{
   color:#C92798;
 }
+.sebertech{
+  text-decoration: none !important;
+}
+.sebertech:hover{
+  color:#25d366 !important;
+}
 
 /* for desktop */
     .whatsapp_float {

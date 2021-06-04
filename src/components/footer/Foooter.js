@@ -170,9 +170,11 @@ export default class Foooter extends Component {
             <hr/> 
                     <div className="patent" >
                         
-                            <p style={{fontSize:"12px",color:"black",paddingLeft:"1rem",float:"left"}}> ©2020 All Rights Reserved</p> 
+                            <p style={{fontSize:"12px",color:"black",paddingLeft:"1rem",float:"left"}}> ©2021 All Rights Reserved</p> 
                             &nbsp; &nbsp;
-                            <p style={{fontSize:"12px",color:"black",paddingRight:"1rem",float:"right",textAlign:"right"}}> ®Se<b>B</b>er Tech</p>
+                            <a className="sebertech" href="tel: +905449125561"
+                               target="_blank" 
+                               style={{fontSize:"12px",color:"black",paddingRight:"1rem",float:"right",textAlign:"right"}}> ®Se<b>B</b>er Tech</a>
                     </div>
           </div>
 
