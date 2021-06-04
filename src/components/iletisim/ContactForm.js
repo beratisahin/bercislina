@@ -30,6 +30,7 @@ const formValid = ({ formErrors, ...rest }) => {
 };
 
 class ContactForm extends Component {
+  
   constructor(props) {
     super(props);
     this.state = {
@@ -86,11 +87,13 @@ class ContactForm extends Component {
       };
 
       emailjs.send(
-        "profesyonel_55",
-        "template_42kjtfd",
+        "service_vx1kefm",
+        "template_2rsbnbr",
         templateParams,
-        "user_9lI9sknsZF7ahiIJ6SHQR"
+        "user_bTFsTGKw8lxQ3pgyrwFWI"
+        
       );
+
 
       console.log(`
         --SUBMITTING--
@@ -147,7 +150,7 @@ class ContactForm extends Component {
 
   render() {
     const { formErrors } = this.state;
-
+    
     return (
       <div>
         <div
@@ -155,32 +158,41 @@ class ContactForm extends Component {
           style={{
             display: "flex",
             justifyContent: "center",
-            backgroundColor: "#333",
+            backgroundColor: "#D7D7D7",
+            marginTop:"1rem",
+            marginBottom:"1rem",
+            borderRadius:"1rem"
+            
+            
+            
           }}
         >
-          <div className="col-lg-8 col-md-8 col-sm-12 col-12 m-5">
-            <h2 className="iletisimegec"
+          <div className="col-lg-8 col-md-8 col-sm-12 col-12 m-3">
+            <p className="iletisimegec"
               style={{
                 display: "flex",
                 justifyContent: "center",
-                color: "white",
+                color: "#C92798",
+                padding:"1%",
+                fontSize:"x-large",
+                
+                
               }}
             >
-               BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ
-            </h2>
-            <p
-              className="yardımcı"
+               BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ 
+            </p>
+            <p className="yardim"
               style={{
                 display: "flex",
                 justifyContent: "center",
-                fontSize: "18px",
-                color: "white",
+                fontSize: "large",
+                color: "#C92798",
               }}
             >
               Size yardımcı olabilmek için buradayız.
             </p>
-            <form id="contact-form" onSubmit={this.handleSubmit} noValidate>
-              <div className="row m-5 p-1">
+            <form id="contact-form" style={{marginLeft:"10%",marginRight:"10%"}} onSubmit={this.handleSubmit} noValidate>
+              <div className="row" >
                 <div className="col-12">
                   <input
                     type="text"
@@ -197,8 +209,10 @@ class ContactForm extends Component {
                     <span className="errorMessage">{formErrors.name}</span>
                   )}
                 </div>
+               <br/>
+               <br/>
 
-                <div className="col-12 mt-2">
+                <div className="col-12">
                   <input
                     type="email"
                     name="email"
@@ -207,15 +221,16 @@ class ContactForm extends Component {
                       formErrors.email.length > 0 ? "error" : null
                     }`}
                     onChange={this.handleChange}
-                    placeholder="Email"
+                    placeholder="E-mail Adresiniz"
                     noValidate
                   ></input>
                   {formErrors.email.length > 0 && (
                     <span className="errorMessage">{formErrors.email}</span>
                   )}
                 </div>
-          
-                <div className="col-12 mt-2">
+                <br/>
+                <br/>
+                <div className="col-12">
                   <input
                     type="subject"
                     name="subject"
@@ -231,10 +246,12 @@ class ContactForm extends Component {
                     <span className="errorMessage">{formErrors.subject}</span>
                   )}
                 </div>
+                <br/>
+                <br/>
 
-                <div className="col-12 mt-2">
+                <div className="col-12">
                   <textarea
-                    rows="5"
+                    rows="4"
                     name="message"
                     value={this.state.message}
                     className={`form-control formInput ${
@@ -249,20 +266,23 @@ class ContactForm extends Component {
                   )}
                 </div>
               </div>
+              <br/>
+              
               <div
                 className="col-12"
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div className="col-4">
                   <button
-                    className="btn btn-primary"
+                    className="btn btn-primary gonder"
                     type="submit"
-                    style={{ width: "100%" }}
+                    style={{ backgroundColor:"#C92798",display:"block",margin:"auto",align:"justify" }}
                   >
-                    <span style={{textAlign:"center",margin:"auto",fontWeight:"bold",marginLeft:"-0.5rem"}}>Gönder</span>
+                    <b>Gönder</b>
                   </button>
                 </div>
               </div>
+              <br/>
             </form>
           </div>
 
@@ -272,5 +292,4 @@ class ContactForm extends Component {
     );
   }
 }
-
 export default ContactForm;

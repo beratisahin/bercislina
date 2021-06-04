@@ -3,6 +3,7 @@ import "./Home.css";
 import Services from "../services/Services";
 import Slider from "../slider/Slider";
 import NedenBercislina from "../home/neden/Neden.js";
+import Mail from "../iletisim/ContactForm";
 
 
 import ciltBakim from "../medya/ciltBakim.PNG";
@@ -93,6 +94,9 @@ function Home() {
             <NedenBercislina/>
       </div>
       <br/>
+      <div className="col-12">
+            <Mail/>
+      </div>
       
 
       <div className="col-12 harita" style={{}}>
