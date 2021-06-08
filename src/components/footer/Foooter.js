@@ -29,7 +29,7 @@ export default class Foooter extends Component {
       <div>
         <div class="row p-4" style={{ backgroundColor: "white", height:"auto" }}>
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <a href="/" title="Samsun Profesyonel Sağlam Temizlik">
+            <a href="/" title="Bercislina Epilasyon ve Güzellik Merkezi">
               <img
                 src={logo}
                 alt="logo"

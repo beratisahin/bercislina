@@ -25,7 +25,7 @@ import HamaliyeTemini from "./components/hizmetler/hamaliye-temini/HamaliyeTemin
 import CalismaPrensibimiz from "./components/calisma-prensibimiz/CalismaPrensibimiz";
 import Galeri from "./components/galeri/Galeri";
 import Iletisim from "./components/iletisim/ContactForm";
-
+import Admin from "./components/admin/Admin.js";
 
 
 
@@ -60,8 +60,11 @@ function App() {
             <Route path="/calisma-prensibimiz" component={CalismaPrensibimiz} />
             <Route path="/galeri" component={Galeri} />
             <Route path="/iletisim" component={Iletisim} />
+            <Route exact path="/admin" component={Admin} />
           </Switch>
 
+          
+          <hr className="footerHr"/>
           <div className="col-12">
             <Foooter />
           </div>

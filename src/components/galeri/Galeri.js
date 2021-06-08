@@ -48,23 +48,7 @@ function Galeri() {
                 
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-12 col-12 " >
-                <img src={bv5} className="d-block img-responsive w-100 galpho" title="halı yıkama" alt="halı" ></img>
-               
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 col-12 " >
-                <img src={bv6} className="d-block img-responsive w-100 galpho" title="yurt temizlik" alt="yurt" ></img>
-                
-            </div>
-
-            <div className="col-lg-3 col-md-6 col-sm-12 col-12 " >
-                <img src={bv7} className="d-block img-responsive w-100 galpho" title="halı yıkama" alt="halı" ></img>
-               
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 col-12 " >
-                <img src={bv8} className="d-block img-responsive w-100 galpho" title="yurt temizlik" alt="yurt" ></img>
-                
-            </div>
+            
             
 
 
