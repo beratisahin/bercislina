@@ -19,23 +19,23 @@ export default class Slider extends Component {
                 <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-interval="3000">
-                            <img src={s5} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo" style={{height:"40rem"}}></img>
+                            <img src={s5} className="d-block img-responsive w-100 slidephoto" title="Cilt Bakımı" alt="logo"></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center",color:"#C92798"}}>Profesyonellik</h4>
                          </div>
                         <div className="carousel-item" data-interval="2000">
-                            <img src={s4} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" style={{height:"40rem"}}></img>
+                            <img src={s4} className="d-block img-responsive w-100 slidephoto" title="Epilasyon" alt="logo" ></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center",color:"#C92798"}}>Kurumsallık</h4>
                         </div>
                         <div className="carousel-item">
-                            <img src={s3} className="d-block img-responsive w-100 slidephoto" title="Kaş Kontür" alt="logo" style={{height:"40rem"}}></img>
+                            <img src={s3} className="d-block img-responsive w-100 slidephoto" title="Kaş Kontür" alt="logo"></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center",color:"#C92798"}}>Mükemmellik</h4>
                         </div>
                         <div className="carousel-item">
-                            <img src={s2} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" style={{height:"40rem"}}></img>
+                            <img src={s2} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Makyaj" alt="logo" ></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center",color:"#C92798"}}>Güvenilirlik</h4>
                         </div>
                         <div className="carousel-item">
-                            <img src={s1} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Fondoten" alt="logo" style={{height:"40rem"}}></img>
+                            <img src={s1} className="d-block img-responsive w-100 slidephoto" title="Kalıcı Fondoten" alt="logo"></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center",color:"#C92798"}}>Hijyen</h4>
                         </div>
                        
