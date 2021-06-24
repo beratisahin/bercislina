@@ -6,6 +6,7 @@ import HouseIcon from '@material-ui/icons/House';
 import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
 import CameraAltIcon from '@material-ui/icons/CameraAlt';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
+import AssignmentIcon from '@material-ui/icons/Assignment';
 
 
 export default class Navbar extends Component {
@@ -138,6 +139,12 @@ export default class Navbar extends Component {
               <li class="nav-item">
                 <Link className="nav-link menu-item-link2" to="/galeri" style={{ color: "#fff", fontSize: "20px" }}>
                   <CameraAltIcon style={{fontSize:"large"}}/>&nbsp; GALERİ
+                </Link>
+              </li>
+              &nbsp;
+              <li class="nav-item">
+                <Link className="nav-link menu-item-link2" to="/blog" style={{ color: "#fff", fontSize: "20px" }}>
+                  <AssignmentIcon style={{fontSize:"large"}}/>&nbsp; BLOG
                 </Link>
               </li>
               &nbsp;
