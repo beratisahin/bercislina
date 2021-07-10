@@ -12,41 +12,56 @@ import bv6 from "../medya/bV6.jpg";
 import bv7 from "../medya/bV7.png";
 import bv8 from "../medya/bV8.jpg";
 
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import useDocumentTitle from '../../useDocumentTitle';
+import {db} from "../../firebase";
 
 function Galeri() {
+    const [galeri, setGaleri] = useState([]);
+    useEffect(() => {
+        // fires once when the app loads
+        getGaleri();
+      }, []);
+
+    const getGaleri = () => {
+
+        db.collection("galeri")
+        .orderBy("timeStamp", "desc")
+        .onSnapshot((snapshot) => {
+          setGaleri(
+            snapshot.docs.map((doc) => ({
+              id: doc.id,
+              url: doc.data().url.substring(doc.data().url.lastIndexOf('file')+7, doc.data().url.lastIndexOf('/')),
+              name: doc.data().name,
+              
+            }))
+          );
+        });
+
+        setTimeout(() => {
+            console.log(galeri);
+        }, 500);
+        
+      }
+
+      
+
         useDocumentTitle('Galeri - Bercislina Epilasyon ve Güzellik Merkezi');
     return (
         <div className="row mr-4" style={{marginLeft:"10px"}} >
         <div style={{marginTop:"10px",marginBottom:"10px",justifyContent:"flex-end !important"}}>
             <h3 style={{textAlign:"center",color:"#C92798"}}><b>Galeri</b></h3>
+
+            {galeri.map((foto, index) => (
             <div className="col-lg-3 col-md-6 col-sm-12 col-12" >
-                <img src={ciltBakim} className="d-block img-responsive w-100 galpho" title="temizlik" alt="temizlik" ></img>
+                <img src={"https://drive.google.com/uc?export=view&id="+foto.url} className="d-block img-responsive w-100 galpho" title="temizlik" alt={foto.name} ></img>
                 
-           
-            </div>
+                </div>
+          ))}
             
-            <div className="col-lg-3 col-md-6 col-sm-12 col-12 " >
-                <img src={epilasyon} className="d-block img-responsive w-100 galpho" title="ilaçlama" alt="koltuk-yıkama" ></img>
-               
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 col-12 " >
-                <img src={kaliciFondoten} className="d-block img-responsive w-100 galpho" title="merdiven" alt="merdiven"></img>
-                
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 col-12 " >
-                <img src={kasKontur} className="d-block img-responsive w-100 galpho" title="araç-yıkama" alt="araç yıkama"></img>
-               
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 col-12 " >
-                <img src={dermaterapi} className="d-block img-responsive w-100 galpho" title="halı yıkama" alt="halı" ></img>
-               
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12 col-12 " >
-                <img src={kaliciMakyaj} className="d-block img-responsive w-100 galpho" title="yurt temizlik" alt="yurt" ></img>
-                
-            </div>
+            
+            
+        
 
             
             

@@ -12,7 +12,7 @@ import AssignmentIcon from '@material-ui/icons/Assignment';
 export default class Navbar extends Component {
   render() {
     return (
-      <div
+      <div id="nav-menu"
         className="row p-0 m-0"
         style={{
           display: "flex",

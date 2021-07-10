@@ -26,7 +26,7 @@ export default class Foooter extends Component {
 
   render() {
     return (
-      <div>
+      <div id="footer">
         <div class="row p-4" style={{ backgroundColor: "white", height:"auto" }}>
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <a href="/" title="Bercislina Epilasyon ve Güzellik Merkezi">

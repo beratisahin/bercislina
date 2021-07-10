@@ -26,6 +26,7 @@ import CalismaPrensibimiz from "./components/calisma-prensibimiz/CalismaPrensibi
 import Galeri from "./components/galeri/Galeri";
 import Blog from "./components/blog/Blog";
 import Iletisim from "./components/iletisim/ContactForm";
+import Admin from "./components/admin/Admin";
 
 
 
@@ -62,10 +63,12 @@ function App() {
             <Route path="/galeri" component={Galeri} />
             <Route path="/blog" component={Blog} />
             <Route path="/iletisim" component={Iletisim} />
+
+            <Route exact path="/admin" component={Admin} />
            
           </Switch>
-
           
+         
           <hr className="footerHr"/>
           <div className="col-12">
             <Foooter />
