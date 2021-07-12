@@ -36,22 +36,22 @@ export default function Blog() {
 
     useDocumentTitle('Blog - Bercislina Epilasyon ve Güzellik Merkezi');
     return (
-        <div className="row mr-4" style={{marginLeft:"10px"}} >
-        <div style={{marginTop:"10px",marginBottom:"10px",justifyContent:"flex-end !important"}}>
-            <h3 style={{textAlign:"center",color:"#C92798"}}><b>Blog</b></h3>
+      <div className="row mr-4" style={{marginLeft:"10px"}} >
+        <div style={{marginTop:"10px",justifyContent:"flex-end !important"}}>
+            <h3 style={{textAlign:"center",color:"#C92798"}}><b>Çalışma Prensibimiz</b></h3>
+
             {blogs.map((blog, index) => (
-                 <div className="col-lg-4 col-md-6 col-sm-12 col-12" >
-                 <img src={"https://drive.google.com/uc?export=view&id="+blog.url} className="d-block img-responsive w-100 galpho" title="temizlik" alt="temizlik" ></img>
-                 <h4 className="blogTitle">{blog.heading}</h4>
-                 <p className="blogContent"  {...html(blog.blogContent)}></p>
-             </div> 
-           
-          ))}
-
-           
-
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12 blogtemplate" style={{height:"45rem",marginBottom:"1.5rem"}}>
+                <img src={"https://drive.google.com/uc?export=view&id="+blog.url} className="d-block img-responsive blogPhoto" title={blog.heading} alt={blog.heading} ></img>
+                <h4 className="blogTitle">{blog.heading}</h4>
+                <div className="blogScrollText" style={{height:"200px",width:"100%",overflow:"auto",padding:"1rem"}}><p class="blogContent" {...html(blog.blogContent)}></p></div>
+                
+            </div>
+            ))}
+            
           
 
+            
         </div>
         </div>
     )

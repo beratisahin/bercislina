@@ -54,18 +54,10 @@ function Galeri() {
 
             {galeri.map((foto, index) => (
             <div className="col-lg-3 col-md-6 col-sm-12 col-12" >
-                <img src={"https://drive.google.com/uc?export=view&id="+foto.url} className="d-block img-responsive w-100 galpho" title="temizlik" alt={foto.name} ></img>
+                <img src={"https://drive.google.com/uc?export=view&id="+foto.url} class="lazy" className="d-block img-responsive w-100 galpho" title="temizlik" alt={foto.name} ></img>
                 
                 </div>
           ))}
-            
-            
-            
-        
-
-            
-            
-
 
         </div>
         </div>

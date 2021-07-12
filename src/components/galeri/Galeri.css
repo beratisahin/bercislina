@@ -1,21 +1,42 @@
 
 .galpho{
     height:25rem !important;
-    border:2px solid #C92798 !important;
+    border:2px solid #C0C0C0 !important;
+    padding: 4px !important;
     border-radius:1rem !important;
     margin-bottom: 1rem !important;
 }
 
+/* Flashing */
+.galpho:hover{
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar #C92798*/ 
 @media screen and (max-width: 700px) {
     .galpho{
         height: 20rem !important;
         
     }
-    
-    
-
-    
+     
  
  }
