@@ -4,7 +4,7 @@ import Services from "../services/Services";
 import Slider from "../slider/Slider";
 import NedenBercislina from "../home/neden/Neden.js";
 import Mail from "../iletisim/ContactForm";
-
+import OwlCarousel from "../owlcarousel/Owl";
 
 import ciltBakim from "../medya/ciltBakim.PNG";
 import epilasyon from "../medya/epilasyon.PNG";
@@ -91,9 +91,15 @@ function Home() {
       </div>
 
       <div className="col-12">
+            <OwlCarousel/>
+      </div>
+      <br/>
+      <div className="col-12">
+            
             <NedenBercislina/>
       </div>
       <br/>
+      <p style={{textAlign:"center",color:"#e10487",fontSize:"large"}}>Bizimle İletişime Geçebilirsiniz</p>
       <div className="col-12">
             <Mail/>
       </div>

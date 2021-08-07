@@ -4,7 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "./Iletisim.css";
 import useDocumentTitle from '../../useDocumentTitle';
-
+import bgi from "./bercislinaMailBGI.png";
 
 
 // Email validation
@@ -158,7 +158,10 @@ class ContactForm extends Component {
           style={{
             display: "flex",
             justifyContent: "center",
-            backgroundColor: "#D7D7D7",
+           
+            backgroundImage: "url(" + bgi + ")",
+            backgroundSize:"cover",
+            backgroundPosition: "center",
             marginTop:"1rem",
             marginBottom:"1rem",
             borderRadius:"1rem"
@@ -172,14 +175,14 @@ class ContactForm extends Component {
               style={{
                 display: "flex",
                 justifyContent: "center",
-                color: "#C92798",
+                color: "black",
                 padding:"1%",
                 fontSize:"x-large",
-                
+                opacity:"0",
                 
               }}
             >
-               BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ 
+               Bizimle İletişime Geçebilirsiniz
             </p>
             <p className="yardim"
               style={{
@@ -187,6 +190,8 @@ class ContactForm extends Component {
                 justifyContent: "center",
                 fontSize: "large",
                 color: "#C92798",
+                opacity:"0",
+                
               }}
             >
               Size yardımcı olabilmek için buradayız.
@@ -276,7 +281,7 @@ class ContactForm extends Component {
                   <button
                     className="btn btn-primary gonder"
                     type="submit"
-                    style={{ backgroundColor:"#C92798",display:"block",margin:"auto",align:"justify" }}
+                    style={{ backgroundColor:"#e10487",display:"block",margin:"auto",align:"justify" }}
                   >
                     <b>Gönder</b>
                   </button>

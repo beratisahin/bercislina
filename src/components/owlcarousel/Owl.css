@@ -1,0 +1,64 @@
+.owl-slider{
+   
+   width:100% !important;
+   margin: 0.5rem;
+   margin-top: 1rem;  
+}
+.owlCarouselTemp{
+   
+   border-radius: 1rem; 
+   height: auto;
+   width: 90%;
+}
+
+.owlCarouselContent{
+   text-align: center;
+   padding: 1rem;
+   margin: auto;
+   font-size: medium;
+}
+.owlCarouselImage{
+   height: 12rem;
+   width: 12rem;
+   border-radius: 1rem;
+   border: 2px groove #e10487;
+   padding: 2px !important;
+}
+/* Opacity #1 */
+.owlCarouselImage{
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.owlCarouselImage:hover{
+	opacity: .5;
+   border: 3px groove #117662;
+}
+
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 700px) {
+    
+     .owl-roof{
+         margin: .5rem !important;
+         width:90% !important;
+     }
+     .owlCarouselContent{
+        font-size: small !important;
+     }
+     .owlCarouselImage{
+       height: 8rem !important;
+       
+      
+     }
+     .owlCarouselTemp{
+      display: block !important;
+      justify-content: center !important;
+      
+      
+   }
+ 
+    
+}
