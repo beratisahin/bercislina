@@ -18,8 +18,8 @@
    font-size: medium;
 }
 .owlCarouselImage{
-   height: 12rem;
-   width: 12rem;
+   height: 11rem;
+   width: 11rem;
    border-radius: 1rem;
    border: 2px groove #e10487;
    padding: 2px !important;
@@ -32,7 +32,7 @@
 }
 .owlCarouselImage:hover{
 	opacity: .5;
-   border: 3px groove #117662;
+   border: 3px groove #eebf2a;
 }
 
 
@@ -50,12 +50,14 @@
      }
      .owlCarouselImage{
        height: 8rem !important;
+      
        
       
      }
      .owlCarouselTemp{
       display: block !important;
       justify-content: center !important;
+      margin-left: 0.3rem !important;
       
       
    }
