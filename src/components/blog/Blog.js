@@ -38,7 +38,7 @@ export default function Blog() {
     return (
       <div className="row mr-4" style={{marginLeft:"10px"}} >
         <div style={{marginTop:"10px",justifyContent:"flex-end !important"}}>
-            <h3 style={{textAlign:"center",color:"#C92798"}}><b>Çalışma Prensibimiz</b></h3>
+            <h3 style={{textAlign:"center",color:"#C92798"}}><b>Blog</b></h3>
 
             {blogs.map((blog, index) => (
             <div className="col-lg-4 col-md-6 col-sm-12 col-12 blogtemplate" style={{height:"45rem",marginBottom:"1.5rem"}}>
