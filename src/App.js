@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/header/Navbar";
 import Foooter from "./components/footer/Foooter";
-import TopMenu from "./components/header/TopMenu";
 import {
   BrowserRouter as Router,
   Switch,
@@ -36,9 +35,7 @@ function App() {
     <Router>
       <div className="App">
         <div className="col-12 m-0 p-0">
-          <div className="col-12 m-0 p-0">
-            <TopMenu />
-          </div>
+          
           <div className="col-12 m-0 p-0">
             <Navbar />
           </div>
