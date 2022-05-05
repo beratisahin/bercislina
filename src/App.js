@@ -34,9 +34,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="col-12 m-0 p-0">
+        <h1 style={{textAlign:"center",margin:"auto",verticalAlign:"center"}}>Sitemiz yapım aşamasındadır.</h1>
+        <div className="col-12 m-0 p-0" style={{display:"none"}}>
           
-          <div className="col-12 m-0 p-0">
+          <div className="col-12 m-0 p-0" style={{display:"none"}}>
             <Navbar />
           </div>
 
@@ -67,7 +68,7 @@ function App() {
           
          
           <hr className="footerHr"/>
-          <div className="col-12">
+          <div className="col-12" style={{display:"none"}}>
             <Foooter />
           </div>
           
