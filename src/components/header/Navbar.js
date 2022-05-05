@@ -1,163 +1,93 @@
 import "./Navbar.css";
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+
+import { Menubar } from 'primereact/menubar';
+
 import BusinessIcon from '@material-ui/icons/Business';
-import HouseIcon from '@material-ui/icons/House';
-import PlaylistAddCheckIcon from '@material-ui/icons/PlaylistAddCheck';
 import CameraAltIcon from '@material-ui/icons/CameraAlt';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
-import AssignmentIcon from '@material-ui/icons/Assignment';
+import HomeIcon from '@material-ui/icons/Home';
+import CastForEducationIcon from '@material-ui/icons/CastForEducation';
+import AcUnitIcon from '@material-ui/icons/AcUnit';
+import ContactlessIcon from '@material-ui/icons/Contactless';
+import Logo from "./BlueLivaMenuLogo.PNG";
+
 
 
 export default class Navbar extends Component {
+  componentDidMount () {
+    const script = document.createElement("script");
+
+  
+      const hamburger = document.querySelector(".hamburger");
+      hamburger.addEventListener("click", function () {
+      this.classList.toggle("close");
+    });
+  
+
+    document.body.appendChild(script);
+}
   render() {
+    
     return (
-      <div id="nav-menu"
-        className="row p-0 m-0"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          backgroundColor: "#28304d",
-        }}
-      >
-        <nav
-          class="navbar navbar-expand-lg navbar-dark p-0 m-0"
-          style={{ backgroundColor: "#28304d", borderRadius: "0px !important"}}
-        >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            style={{marginRight:"1rem"}}
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown" style={{marginRight:"2rem"}}>
-            <ul class="navbar-nav" style={{float:"right"}}>
-              <li class="nav-item dropdown">
-                <a
-                  style={{ color: "#fff", fontSize: "20px" }}
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-
-                >
-                 <BusinessIcon style={{fontSize:"large"}}/>&nbsp; KURUMSAL
-                </a>
-                &nbsp;
+    
+         <header>
+          <nav class="navbar">
+            <div class="branding">
+              <a href="/anasayfa">
+                <img  className="BlueLivaLogo" title="Erzurum Blue Liva Güzellik Salonu" src={Logo}></img>
+              </a>
                 
-                
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <Link className="dropdown-item menu-item-link" to="/hakkimizda">
-                    Hakkımızda
-                  </Link>
+            </div>
+            <label for="input-hamburger" class="hamburger "></label>
+            <input type="checkbox" id="input-hamburger" hidden></input>
+        <ul class="menu">
+          <li><a href="/" class="menu-link" style={{fontSize:"medium"}}><HomeIcon style={{fontSize:"medium"}}/>&nbsp;Ana Sayfa</a></li>
+          <li><a href="/hakkimizda" class="menu-link" style={{fontSize:"medium"}}><BusinessIcon style={{fontSize:"medium"}}/>&nbsp;Hakkımızda</a></li>
+          <li class="has-dropdown">
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><CastForEducationIcon style={{fontSize:"medium"}}/>&nbsp;Hizmetlerimiz &nbsp;
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
 
-                  <Link className="dropdown-item menu-item-link" to="/belgelerimiz">
-                    Belgelerimiz
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/referanslarimiz">
-                    Referanslarımız
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/ekibimiz">
-                    Ekibimiz
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/is-basvurusu">
-                    İş Başvurusu
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/sss">
-                    S.S.S
-                  </Link>
-                 
-                </div>
-              </li>
+              <li><a href="tecrubeli-ogretmen-kadrosu" class="menu-link">Tecrübeli Öğretmen Kadrosu</a></li>
+              <li><a href="/profesyonel-ogrenci-koclugu" class="menu-link">Profesyonel Öğrenci Koçluğu</a></li>
+              <li><a href="/soru-cozum-ve-etut-saatleri" class="menu-link">Soru Çözüm ve Etüt Saatleri</a></li>
+              <li><a href="/turkiye-geneli-deneme-sinavi" class="menu-link">Türkiye Geneli Deneme Sınavı</a></li>
+              <li><a href="/okul-ve-odev-takip-sistemi" class="menu-link">Okul ve Ödev Takip Sistemi</a></li>
+              <li><a href="/kaliteli-yayinlar" class="menu-link">Kaliteli Yayınlar</a></li>
 
-              <li class="nav-item dropdown">
-                <a
-                  style={{ color: "#fff", fontSize: "20px" }}
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <HouseIcon style={{fontSize:"large"}}/>&nbsp;  HİZMETLERİMİZ
-                </a>
-                &nbsp;
-                
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <Link className="dropdown-item menu-item-link" to="/cilt-bakim">
-                    Cilt Bakım
-                  </Link>
-                  <Link
-                    className="dropdown-item menu-item-link"
-                    to="/epilasyon"
-                  >
-                    Epilasyon
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/kalici-fondoten">
-                    Kalıcı Fondoten
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/kas-kontur">
-                    Kaş Kontür
-                  </Link>
-                  <Link
-                    className="dropdown-item menu-item-link"
-                    to="/dermaterapi"
-                  >
-                    Dermaterapi
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/kalici-makyaj">
-                    Kalıcı Makyaj
-                  </Link>
-                  
-                </div>
-              </li>
+            
               
-              <li class="nav-item">
-                <Link className="nav-link menu-item-link2" to="/calisma-prensibimiz" style={{ color: "#fff", fontSize: "20px" }}>
-                  <PlaylistAddCheckIcon style={{fontSize:"large"}}/>&nbsp;  ÇALIŞMA PRENSİBİMİZ
-                </Link>
-              </li>
-              &nbsp;
-              
-              <li class="nav-item">
-                <Link className="nav-link menu-item-link2" to="/galeri" style={{ color: "#fff", fontSize: "20px" }}>
-                  <CameraAltIcon style={{fontSize:"large"}}/>&nbsp; GALERİ
-                </Link>
-              </li>
-              &nbsp;
-              <li class="nav-item">
-                <Link className="nav-link menu-item-link2" to="/blog" style={{ color: "#fff", fontSize: "20px" }}>
-                  <AssignmentIcon style={{fontSize:"large"}}/>&nbsp; BLOG
-                </Link>
-              </li>
-              &nbsp;
-              
-              <li class="nav-item">
-                <Link className="nav-link menu-item-link2" to="/iletisim" style={{ color: "#fff", fontSize: "20px" }}>
-                 <ContactMailIcon style={{fontSize:"large"}}/>&nbsp; İLETİŞİM
-                </Link>
-              </li>
             </ul>
-          </div>
-        </nav>
-      </div>
+          </li>
+          <li><a href="/urunlerimiz" class="menu-link" style={{fontSize:"medium"}}><ContactlessIcon style={{fontSize:"medium"}}/>&nbsp;Ürünlerimiz</a></li>
+          <li class="has-dropdown" >
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon style={{fontSize:"medium"}}/>&nbsp;Galeri &nbsp;
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+            
+            <li><a href="/fotograflar" class="menu-link">Fotoğraf</a></li>
+            <li><a href="/videolar" class="menu-link">Video</a></li>
+      
+              
+            </ul>
+          </li>
+         
+          <li><a href="/duyurular" class="menu-link" style={{fontSize:"medium"}}><ContactlessIcon style={{fontSize:"medium"}}/>&nbsp;Duyurular</a></li>
+          <li><a href="/iletisim" class="menu-link" style={{fontSize:"medium"}}><ContactMailIcon style={{fontSize:"medium"}}/>&nbsp;İletişim</a></li>
+        </ul>
+
+
+
+          </nav>
+        </header>
+
+          
+   
+      
+     
     );
   }
 }
