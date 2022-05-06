@@ -1,9 +1,20 @@
+.neden{
+    background-image:url('dentalbg13.png');
+    display: flex;
+    justify-content: center;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .card-baslik{
-    color:#C92798;
+    color: #ff9c89; /*#ab7a0f */
     font-size: medium;
+   
 }
 
 .card-neden{
+    font-size: 14px !important;
+    margin-bottom: 2rem !important;
     
-    text-align: justify;
 }

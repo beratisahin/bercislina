@@ -1,116 +1,81 @@
 import React from "react";
 import "./Home.css";
-import Services from "../services/Services";
-import Slider from "../slider/Slider";
 import NedenBercislina from "../home/neden/Neden.js";
 import Mail from "../iletisim/ContactForm";
-import OwlCarousel from "../owlcarousel/Owl";
+import Slider from "../slider/Slider.js";
+import DoktorOwl from "../doktorlar/DoktorOwl.js";
+import Klinik from "../klinik/Klinik.js";
+import OwlCarousel from "../owlcarousel/Owl.js";
 
-import ciltBakim from "../medya/ciltBakim.PNG";
-import epilasyon from "../medya/epilasyon.PNG";
-import kaliciFondoten from "../medya/kaliciFondoten.PNG";
-import kasKontur from "../medya/kasKontur.PNG";
-import dermaterapi from "../medya/dermaterapi.jpg";
-import kaliciMakyaj from "../medya/kaliciMakyaj.jpg";
+import Test from "../test/Test.js";
 
 
-
-
+import TopluHizmet from "../topluhizmet/TopluHizmet.js";
 
 
 function Home() {
   return (
     <div>
-      <div className="sliderBg">
-
-        <div className="col-12 mt-4 p-0" style={{borderRadius: "1rem" ,width:"80%",display:"block",align:"center",margin:"auto"}}>
-          <Slider />
-        </div>
+ 
+      <div className="col-12 homepageSlider" style={{width:"80%",justifyContent:"center",margin:"auto"}}>
+        <p className="acilDurumMobil" style={{display:"none"}}>Kayıtlarımız başlamıştır</p>
+         <Slider/>  
       </div>
       
-
-      <div className="row mr-4 servicebox">
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={ciltBakim}
-            title="Cilt Bakım"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/cilt-bakim"
-
-
-          />
-        </div>
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={epilasyon}
-            title="Epilasyon"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/epilasyon"
-          />
-        </div>
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={kaliciFondoten}
-            title="Kalıcı Fondoten"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/kalici-fondoten"
-          />
-        </div>
-
-       
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={kasKontur}
-            title="Kaş Kontür"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/kas-kontur"
-          />
-        </div>
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={dermaterapi}
-            title="Dermaterapi"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/dermaterapi"
-          />
-        </div>
-
-        <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-          <Services
-            photo={kaliciMakyaj}
-            title="Kalıcı Makyaj"
-            text="Göz çevresini düzenlemek,koyu halkaları azaltmak ve sıkılaştırmak için uygulanan bakımdır. İnce çizgileri hafifletir ve çizgileri azaltır yorgun gözleri rahatlatır..."
-            divert="/kalici-makyaj"
-          />
-        </div>
-       
-      </div>
-
       <div className="col-12">
-            <OwlCarousel/>
-      </div>
-      <br/>
-      <div className="col-12">
-            
             <NedenBercislina/>
       </div>
+      
       <br/>
-      <p style={{textAlign:"center",color:"#e10487",fontSize:"large"}}>Bizimle İletişime Geçebilirsiniz</p>
+      <hr/>
+      <div className="row">
+        <TopluHizmet/>
+      </div>
+      {/*
+          <hr/>
+       <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#daac1d",fontFamily: "'Times New Roman', Times, serif;"}}>Kursumuzdan Videolar</h2>
+      <div className="row">
+       
+        <DoktorOwl/> 
+        
+      </div> 
+      */} 
+       
+      
+      <br/>
+      <hr/>
+      <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#EF836D",fontFamily: "'Times New Roman', Times, serif;"}}>Salonumuzdan Resimler</h2>
+      <div className="row">
+      
+         <Klinik/>
+      </div>
+     
+      
+      <br/>
+      <hr/>
+      
+      <div className="col-12" style={{margin:"auto",justifyContent:"center",marginLeft:"1.5rem"}}>
+            <OwlCarousel/>
+      </div>
+      <hr/>
+
+      
       <div className="col-12">
             <Mail/>
       </div>
-      
+      <br/>
+      <div className="row m-2">
+         
 
-      <div className="col-12 harita" style={{}}>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3061.3008749694877!2d41.23791151524074!3d39.88989547942979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406e5eed98de988d%3A0xa214df6214c40241!2sErzurum%20B%C3%B6lge%20E%C4%9Fitim%20Ve%20Ara%C5%9Ft%C4%B1rma%20Hastanesi%20Helikopter%20Pisti!5e0!3m2!1str!2str!4v1622621117465!5m2!1str!2str" 
-                className="googleharita" style={{width:"100%", height:"45rem", frameBorder:"0", allowFullScreen:"", ariaHidden:"false", tabIndex:"0",border:"2px #C92798 solid",paddingBottom:"0.5rem",paddingTop:"0.5rem"}}> </iframe>
-            </div> 
+          <div className="col-lg-12  col-12 harita" style={{marginTop:"2.5rem"}}>
+                    <p className="harita_baslik">Lokasyonumuz</p>
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111295.4020319083!2d36.327440092629494!3d40.40055558784228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406e5fed3c9bde37%3A0x78c08b2bf35460c5!2sErzurum%20Blue%20Liva%20G%C3%BCzellik%20Salonu!5e0!3m2!1str!2str!4v1651862485846!5m2!1str!2str" 
+                className="googleharita" style={{width:"100%", height:"45rem", frameBorder:"0", allowFullScreen:"", ariaHidden:"false", tabIndex:"0",border:"2px #daac1d solid",paddingBottom:"0.5rem",paddingTop:"0.5rem"}}> </iframe>
+                
+          </div> 
 
-            
+      </div>
 
     </div>
   );

@@ -50,12 +50,12 @@ export default class Navbar extends Component {
             </a>
             <ul class="submenu">
 
-              <li><a href="tecrubeli-ogretmen-kadrosu" class="menu-link">Tecrübeli Öğretmen Kadrosu</a></li>
-              <li><a href="/profesyonel-ogrenci-koclugu" class="menu-link">Profesyonel Öğrenci Koçluğu</a></li>
-              <li><a href="/soru-cozum-ve-etut-saatleri" class="menu-link">Soru Çözüm ve Etüt Saatleri</a></li>
-              <li><a href="/turkiye-geneli-deneme-sinavi" class="menu-link">Türkiye Geneli Deneme Sınavı</a></li>
-              <li><a href="/okul-ve-odev-takip-sistemi" class="menu-link">Okul ve Ödev Takip Sistemi</a></li>
-              <li><a href="/kaliteli-yayinlar" class="menu-link">Kaliteli Yayınlar</a></li>
+              <li><a href="/medikal-cilt-bakimi" class="menu-link">Medikal Cilt Bakımı</a></li>
+              <li><a href="/tum-vucut-lazer-epilasyon" class="menu-link">Tüm Vücut Lazer Epilasyon</a></li>
+              <li><a href="/hydrafacial-cilt-bakimi" class="menu-link">Hydrafacial Cilt Bakımı</a></li>
+              <li><a href="/g5-masajı-selulit-sikilastirma" class="menu-link">G5 Masajı - Selülit Sıkılaştırma</a></li>
+              <li><a href="/ense-boyun-yanak-epilasyon" class="menu-link">Ense - Yanak - Boyun Epilasyon</a></li>
+              <li><a href="/bikini-bolgesi" class="menu-link">Bikini Bölgesi</a></li>
 
             
               

@@ -1,10 +1,11 @@
 #slide{
-    width: 80%;
+    width: 100%;
+    z-index: -1;
 }
 
 #carouselExampleInterval{
     width: 100%;
-    height: 450px;
+    height: 52rem;
    
     overflow: hidden;
     
@@ -15,18 +16,142 @@
 
 }
 .slidephoto{
-    height: 40rem !important;
+    height: 50rem !important;
+    border-radius: 5px !important;
+    border: 2px outset #ab7a0f !important;
+    padding: 1px !important;
 }
+
+.sliderHeader{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color:#168B80;
+
+
+}
+.sliderText{
+    font-size:small;
+    margin-bottom:35rem;
+    color:purple;
+
+}
+.anaCardPhoto{
+    width: 10rem !important;
+    height: 8rem !important;
+    display: block !important;
+    justify-content: center !important;
+    margin: auto !important;
+    
+}
+.anaCardText{
+    color: black;
+}
+.anaCardTemp{
+    width: 20rem !important;
+    height: 14rem !important;
+    border-radius: 1rem !important;
+    border: 2px inset #168B80;
+    display: block !important;
+    margin: auto !important;
+    justify-content: center !important;
+
+    z-index: +1 !important;
+    animation-name: anacard-temp;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+/* The animation code */
+@keyframes anacard-temp{
+    from {border: 2px inset #168B80;}
+    to {border: 3px outset #FFC155; }
+  }
+
+  
+  
+  .sliderHeader{
+    /*color:#3d667c !important; */
+    
+    font-size: xx-large !important;
+    font-weight: 500;
+    z-index: +1 !important;
+
+    animation-duration: 50ms;
+    animation-name: slider-header;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+  } 
+/* The animation code 
+@keyframes slider-header{
+    from {color: #168B80;}
+    to {color: #FFC155}
+  }
+*/
+@keyframes slider-header{
+    from {color: #f4864e;}
+    to {color: #168B80;}
+  }
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 990px) {
+    .anaCardPhoto{
+        width: 8rem !important;
+    }
+    .anaCardTemp{
+        width: 15rem !important;
+    }
+
+}
+
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
+    #carouselExampleInterval{
+        width: 100%;
+        height: 28rem;
+       overflow: hidden;
+         
+    }
     #slide{
         width: 100% !important;
+        
     }
 
     .slidephoto{
         height: 25rem !important;
+        width: 100% !important;
 
     }
+    .sliderText{
+        margin-bottom: 20rem !important;
+    }
+    .acilDurum{
+        
+        display: none !important;
+    }
+    .acilDurumMobil{
+        display: block !important;
+        font-size: medium !important;
+        margin: auto !important;
+        margin-bottom: 1.5rem !important;
+        text-align: center !important;
+        justify-content: center !important;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold !important;
+
+        animation-duration: 50ms;
+        animation-name: acil-durum-mobil;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    /* The animation code */
+    @keyframes acil-durum-mobil{
+        from {color: #168B80;}
+        to {color: #f23824;}
+    }
+
 
     
  

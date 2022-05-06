@@ -18,32 +18,28 @@ import o11 from "../owlcarousel/owlIcons/m11.PNG";
 import o12 from "../owlcarousel/owlIcons/m12.PNG";
 
 
-
-
-
-
-
 //Owl Carousel Settings
 const options = {
     margin: 5,
     responsiveClass: true,
     dots:2,
+    loop:true,
     autoplay: true,
     dotsSpeed:2,
     navText: ["",""],
     smartSpeed: 1000,
     responsive: {
         0: {
-            items: 4,
+            items: 3,
         },
         400: {
-            items: 4,
+            items: 3,
         },
         600: {
-            items: 6,
+            items: 5,
         },
         700: {
-            items: 6,
+            items: 5,
         },
         1000: {
             items: 8,
@@ -64,7 +60,7 @@ export default function Owl() {
 
             <div className="item owl-slider">
                <div className="owlCarouselTemp">
-                   <img src={o1} className="owlCarouselImage" alt="Bercislina" title="Bercislina"></img>
+                   <img src={o1} className="owlCarouselImage" alt="Blue Liva Güzellik Salonu" title="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Dudak</p>
                   
                </div>
@@ -72,7 +68,7 @@ export default function Owl() {
             </div>
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o2} className="owlCarouselImage" alt="Bercislina" title="Bercislina"></img>
+                    <img src={o2} className="owlCarouselImage" alt="Blue Liva Güzellik Salonu" title="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Ruj</p>
                </div>
                 
@@ -80,7 +76,7 @@ export default function Owl() {
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
                     
-                    <img src={o3} className="owlCarouselImage" title="Bercislina" alt="Bercislina"></img>
+                    <img src={o3} className="owlCarouselImage" title="Blue Liva Güzellik Salonu" alt="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Göz</p>
 
                </div>
@@ -89,7 +85,7 @@ export default function Owl() {
             </div>
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o4} className="owlCarouselImage" alt="Bercislina" title="Bercislina"></img>
+                    <img src={o4} className="owlCarouselImage" alt="Blue Liva Güzellik Salonu" title="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Parfüm</p>
                </div>
                
@@ -97,21 +93,21 @@ export default function Owl() {
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o5} className="owlCarouselImage" alt="Bercislina" title="Bercislina"></img>
+                    <img src={o5} className="owlCarouselImage" alt="Blue Liva Güzellik Salonu" title="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Bikini</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o6} className="owlCarouselImage" alt="Bercislina" title="Bercislina"></img>
+                    <img src={o6} className="owlCarouselImage" alt="Blue Liva Güzellik Salonu" title="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Saç</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o7} className="owlCarouselImage" alt="Bercislina" title="Bercislina"></img>
+                    <img src={o7} className="owlCarouselImage" alt="Blue Liva Güzellik Salonu" title="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Makyaj</p>
                </div> 
             </div>
@@ -120,35 +116,35 @@ export default function Owl() {
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o8} className="owlCarouselImage" alt="Bercislina" title="Bercislina"></img>
+                    <img src={o8} className="owlCarouselImage" alt="Blue Liva Güzellik Salonu" title="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Estetik</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o9} className="owlCarouselImage" alt="Bercislina" title="Bercislina"></img>
+                    <img src={o9} className="owlCarouselImage" alt="Blue Liva Güzellik Salonu" title="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Ayna</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o10} className="owlCarouselImage" alt="Bercislina" title="Bercislina"></img>
+                    <img src={o10} className="owlCarouselImage" alt="Blue Liva Güzellik Salonu" title="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Takı</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o11} className="owlCarouselImage" alt="Bercislina" title="Bercislina"></img>
+                    <img src={o11} className="owlCarouselImage" alt="Blue Liva Güzellik Salonu" title="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Ayakkabı</p>
                </div> 
             </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
-                    <img src={o12} className="owlCarouselImage" alt="Bercislina" title="Bercislina"></img>
+                    <img src={o12} className="owlCarouselImage" alt="Blue Liva Güzellik Salonu" title="Blue Liva Güzellik Salonu"></img>
                    <p className="owlCarouselContent">Çanta</p>
                </div> 
             </div>

@@ -154,7 +154,8 @@ header {
   header {
 /*     position: relative; */
     padding: 1em 1.5em ;
-    height: 10rem;
+    height: 12rem;
+    
   }
   .menu {
     flex-flow: column;
@@ -259,12 +260,12 @@ header {
     transform: scaleY(1);
   }
 
-  .MedisamLogo{
+  .BlueLivaLogo{
     width:25rem;
-    height:9rem;
+    height:10rem;
     float: left !important;
     margin-left: -12rem !important;
-    margin-top: -2rem !important;
+    margin-top: -1rem !important;
   }
  
 }

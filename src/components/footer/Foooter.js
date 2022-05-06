@@ -1,3 +1,4 @@
+import Logo from "../header/BlueLivaMenuLogo.PNG";
 import "./Foooter.css";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -5,10 +6,12 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import EmailIcon from "@material-ui/icons/Email";
 import HomeIcon from "@material-ui/icons/Home";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
-import logo from "./bV9.PNG";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 import PhoneIcon from '@material-ui/icons/Phone';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import SettingsCell from "@material-ui/icons/SettingsCell";
+
 
 
 
@@ -27,110 +30,105 @@ export default class Foooter extends Component {
   render() {
     return (
       <div id="footer">
-        <div class="row p-4" style={{ backgroundColor: "white", height:"auto" }}>
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <a href="/" title="Bercislina Epilasyon ve Güzellik Merkezi">
+        <div class="row p-4" style={{ backgroundColor: "#eeeeee", height:"auto" }}>
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
+            <a href="/" title="Blue Liva Güzellik Salonu" alt="Blue Liva Güzellik Salonu">
               <img
-                src={logo}
+                src={Logo}
                 alt="logo"
-                style={{ width: "25rem", height: "12rem",display:"block",align:"center",margin:"auto" }}
+                style={{ width: "30rem", height: "12rem",display:"block",align:"center",margin:"auto" }}
               ></img>
             </a>
             <p
               className="mt-4"
               style={{
                 fontSize: "14px",
-                color: "black",
+                fontFamily:"sans-serif",
                 textAlign: "justify",
                 textIndent: "1px",
               }}
             >
               {" "}
-              Estetik ve güzellik anlayışının sağlıkla ön planda tutulduğu güzellik merkezimde, koşulsuz müşteri memnuniyeti sunma amaçlı konusunda deneyimli ve profesyonel bir ekip tarafından hizmet vermektedir.
+              Kurulduğumuz günden bu yana istikrarlı bir büyüme kaydetmiş ve her geçen gün gücüne güç katmıştır. Bu süreçte birçok meslek dalında öğrenci yetiştirmiş en seçkin öğrenci guruplarını sınava hazırlamış ve sonuçlar alarak, danışmanlık ve eğitim hizmetlerinde ön sıralarda kendine yer edinmiştir. İlgi Kurs Merkezi, alanında uzman yönetici kadrosu, eğitim koçları ve güçlü öğretmen kadrosu ile birlikte kaliteli eğitimi en sağlıklı şekilde vermeyi amaç edinmiştir.
             </p>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <b style={{ color: "black", fontSize: "18px" }}>Hizmetlerimiz</b>
-            <ul className="bottomlist">
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/cilt-bakim">Cilt Bakım</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/epilasyon">
-                  Epilasyon
-                </Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/kalici-fondoten">Kalıcı Fondoten</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/kas-kontur">Kaş Kontür</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/dermaterapi">
-                  Dermaterapi
-                </Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/kalici-makyaj">Kalıcı Makyaj</Link>
-              </li>
-              
-            </ul>
+
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{ fontSize: "12px",marginBottom:"2rem"  }}>
+            <b style={{ color: "#EF836D", fontSize: "18px" }}>Çalışma Takvimi</b>
+            <hr/>
+            <table class="table table-striped" >
+                    
+                    <tbody>
+                        <tr style={{height:"2px"}}>
+                            <td>Pazartesi</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Salı</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Çarşamba</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Perşembe</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Cuma</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Cumartesi</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Pazar</td>
+                            <td>09:00 - 22:00</td>
+                        </tr>
+                      
+                    </tbody>
+                    
+                    </table>
+                   
+                        <p style={{color:"red",fontSize:"13px"}}></p>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <b style={{ color: "black", fontSize: "18px" }}>Kurumsal</b>
-            <ul className="bottomlist">
-              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
-                <Link to="/hakkimizda">Hakkımızda</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
-                <Link to="/belgelerimiz">Belgelerimiz</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
-                <Link to="/referanslarimiz">Referanslarımız</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
-                <Link to="/ekibimiz">Ekibimiz</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
-                <Link to="/iletisim">İletişim</Link>
-              </li>
-            </ul>
-          </div>
-
-          <div
-            className="col-lg-3 col-md-6 col-sm-6 col-12"
-            style={{ fontSize: "15px" }}
-          >
-            <p style={{ color: "black", fontWeight: "bold", fontSize: "18px" }}>
-              Sosyal Medya
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
+            <p style={{ color: "#EF836D", fontWeight: "bold", fontSize: "18px" }}>
+              Erzurum Blue Liva Güzellik Salonu
             </p>
+            <hr/>
             <a
-              href="https://www.facebook.com/bercislinakahramanmaras/"
+              href="https://www.facebook.com/"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left" }}
             >
               <FacebookIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="https://www.instagram.com/bercislinavipadiyaman/"
+              href="https://www.instagram.com/blue_liva/"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
               <InstagramIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="https://wa.me/+905435390177"
+              href="https://wa.me/+905072132725"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
               <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="tel: +905435390177"
+              href="tel: +905072132725"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
             >
               <SettingsPhoneIcon className="icon" style={{fontSize:"24px"}} />
@@ -138,74 +136,88 @@ export default class Foooter extends Component {
 
             <br />
             <br/>
-            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ fontSize: "14px", textAlign: "left" }}>
               {" "}
-              <a>
+              <a href="mailto:blueliva25@gmail.com">
                 <EmailIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              bercislina_erzurum@gmail.com  
+              blueliva25@gmail.com  
             </p>
-            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
+            <p style={{  fontSize: "14px", textAlign: "left" }}>
               {" "}
-              <a>
+              <a
+                href="tel: +905072132725"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SettingsCell style={{fontSize:"24px"}}/>
+              </a>
+              &nbsp;
+              0507 213 27 25  <FontAwesomeIcon icon="coffee" size="lg" />
+              <br />
+            <br/>
+              <p style={{  fontSize: "14px", textAlign: "left" }}>
+              {" "}
+              <a
+                href="tel: +905526350125"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <SettingsPhoneIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              0543 539 01 77  <FontAwesomeIcon icon="coffee" size="lg" />
+              0552 635 01 25  <FontAwesomeIcon icon="coffee" size="lg" />
             </p>
-            <p style={{ color:"#4682B4", fontSize: "14px", textAlign: "left" }}>
+            </p>
+            <p style={{  fontSize: "14px", textAlign: "left" }}>
               
-              <a>
+              <a 
+                href="https://www.google.com/maps?q=Alt%C4%B1y%C3%BCzevler+Mah.+%C4%B0maml%C4%B1k+Cad.+No:4+Merkez+/+Tokat&rlz=1C1GCEU_enTR867TR868&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi9uYK325H3AhVxS_EDHbHkA3AQ_AUoAXoECAEQAw"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <HomeIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              Atatürk Mahallesi Cumhuriyet Caddesi <br/> Yakutiye / Erzurum{" "}
+              Muratpaşa Mah. Erzincan Kapı Cad. No:99 Kapı No:13 <br/> Yakutiye / Erzurum{" "}
 
              
             </p>
           </div>
+
           <div className="col-12">
             
             <hr/> 
                     <div className="patent" >
                         
-                            <p style={{fontSize:"12px",color:"black",paddingLeft:"1rem",float:"left"}}> ©2021 All Rights Reserved</p> 
+                            <p style={{fontSize:"12px",paddingLeft:"1rem",float:"left"}}> ©2022 All Rights Reserved</p> 
                             &nbsp; &nbsp;
                             <a className="sebertech" href="tel: +905449125561"
                                target="_blank" 
-                               style={{fontSize:"12px",color:"black",paddingRight:"1rem",float:"right",textAlign:"right"}}> ®Se<b>B</b>er Tech</a>
+                               rel="noopener noreferrer"
+                               style={{fontSize:"12px",paddingRight:"1rem",float:"right",textAlign:"right",color:"black"}}> ®Se<b>B</b>er Tech</a>
                     </div>
           </div>
 
+
+          <div className="roof-location">
+              <a href="https://goo.gl/maps/7ryRSpGz7PPH1rZW9" className="location_float" target="_blank" rel="noopener noreferrer">
+                  <LocationOnIcon className="location-icon"/>
+              </a>
+          </div>
+
           <div className="roof-phone">
-                <a
-                    href="tel: +905435390177"
-                    className="phone_float"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    
-                    
-                    <PhoneIcon className="phone-icon"/>
-                  
-                </a>
-            </div>
+              <a href="tel: +905072132725" className="phone_float" target="_blank" rel="noopener noreferrer">
+                  <PhoneIcon className="phone-icon"/>  
+              </a>
+          </div>
 
-            
-
-            <div className="roof-whatsapp">
-                <a
-                    href="https://wa.me/+905435390177"
-                    className="whatsapp_float"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    
-                    <WhatsAppIcon className="whatsapp-icon"/>
-                  
-                </a>
-            </div>
+          <div className="roof-whatsapp">
+              <a href="https://wa.me/+905072132725" className="whatsapp_float" target="_blank" rel="noopener noreferrer">
+                  <WhatsAppIcon className="whatsapp-icon"/>
+              </a>
+          </div>
 
         </div>
 

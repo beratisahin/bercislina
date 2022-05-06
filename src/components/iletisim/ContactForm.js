@@ -4,7 +4,9 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import "./Iletisim.css";
 import useDocumentTitle from '../../useDocumentTitle';
-import bgi from "./bercislinaMailBGI.png";
+
+
+
 
 
 // Email validation
@@ -36,11 +38,13 @@ class ContactForm extends Component {
     this.state = {
       name: "",
       email: "",
+      number:"",
       subject: "",
       message: "",
       formErrors: {
         name: "",
         email: "",
+        number:"",
         subject: "",
         message: "",
       },
@@ -76,21 +80,22 @@ class ContactForm extends Component {
 
     if (formValid(this.state)) {
       // Handle form validation success
-      const { name, email, subject, message } = this.state;
+      const { name, email,number, subject, message } = this.state;
 
       // Set template params
       let templateParams = {
         name: name,
         email: email,
+        number: number,
         subject: subject,
         message: message,
       };
 
       emailjs.send(
-        "service_vx1kefm",
-        "template_2rsbnbr",
+        "service_2ncv7uo",
+        "template_cmgfgip",
         templateParams,
-        "user_bTFsTGKw8lxQ3pgyrwFWI"
+        "tQdKNdNNyf_urWJQ4" 
         
       );
 
@@ -99,6 +104,7 @@ class ContactForm extends Component {
         --SUBMITTING--
         Name: ${name}
         Email: ${email}
+        PhoneNumber: ${number}
         Subject: ${subject}
         Message: ${message}
       `);
@@ -117,6 +123,7 @@ class ContactForm extends Component {
     this.setState({
       name: "",
       email: "",
+      number:"",
       subject: "",
       message: "",
     });
@@ -136,6 +143,9 @@ class ContactForm extends Component {
           ? ""
           : "Please enter a valid email address.";
         break;
+      case "number":
+          formErrors.subject = value.length < 1 ? "Please enter a cell phone number." : "";
+          break;
       case "subject":
         formErrors.subject = value.length < 1 ? "Please enter a subject." : "";
         break;
@@ -154,16 +164,19 @@ class ContactForm extends Component {
     return (
       <div>
         <div
-          className="col-12"
+          className="col-12 contactFormTemp"
           style={{
             display: "flex",
             justifyContent: "center",
-           
-            backgroundImage: "url(" + bgi + ")",
-            backgroundSize:"cover",
-            backgroundPosition: "center",
+            
+            backgroundColor:"#EBEBEB",
+            backgroundPosition:"center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            
+            width:"100%",
             marginTop:"1rem",
-            marginBottom:"1rem",
+            marginBottom:"0.5rem",
             borderRadius:"1rem"
             
             
@@ -171,31 +184,21 @@ class ContactForm extends Component {
           }}
         >
           <div className="col-lg-8 col-md-8 col-sm-12 col-12 m-3">
+          
             <p className="iletisimegec"
               style={{
                 display: "flex",
                 justifyContent: "center",
-                color: "black",
+                color: "#EF836D",
                 padding:"1%",
-                fontSize:"x-large",
-                opacity:"0",
+                fontSize:"large",
+                
                 
               }}
-            >
+            >  
                Bizimle İletişime Geçebilirsiniz
             </p>
-            <p className="yardim"
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                fontSize: "large",
-                color: "#C92798",
-                opacity:"0",
-                
-              }}
-            >
-              Size yardımcı olabilmek için buradayız.
-            </p>
+            
             <form id="contact-form" style={{marginLeft:"10%",marginRight:"10%"}} onSubmit={this.handleSubmit} noValidate>
               <div className="row" >
                 <div className="col-12">
@@ -216,6 +219,7 @@ class ContactForm extends Component {
                 </div>
                <br/>
                <br/>
+               
 
                 <div className="col-12">
                   <input
@@ -226,7 +230,7 @@ class ContactForm extends Component {
                       formErrors.email.length > 0 ? "error" : null
                     }`}
                     onChange={this.handleChange}
-                    placeholder="E-mail Adresiniz"
+                    placeholder="Email Adresiniz"
                     noValidate
                   ></input>
                   {formErrors.email.length > 0 && (
@@ -235,6 +239,26 @@ class ContactForm extends Component {
                 </div>
                 <br/>
                 <br/>
+                <div className="col-12">
+                  <input
+                    type="number"
+                    name="number"
+                    value={this.state.number}
+                    className={`form-control formInput ${
+                      formErrors.email.length > 0 ? "error" : null
+                    }`}
+                    onChange={this.handleChange}
+                    placeholder="Cep Telefonunuz"
+                    noValidate
+                  ></input>
+                  {formErrors.number.length > 0 && (
+                    <span className="errorMessage">{formErrors.number}</span>
+                  )}
+                </div>
+
+                <br/>
+                <br/>
+               
                 <div className="col-12">
                   <input
                     type="subject"
@@ -253,10 +277,11 @@ class ContactForm extends Component {
                 </div>
                 <br/>
                 <br/>
+                
 
                 <div className="col-12">
                   <textarea
-                    rows="4"
+                    rows="3"
                     name="message"
                     value={this.state.message}
                     className={`form-control formInput ${
@@ -281,7 +306,7 @@ class ContactForm extends Component {
                   <button
                     className="btn btn-primary gonder"
                     type="submit"
-                    style={{ backgroundColor:"#e10487",display:"block",margin:"auto",align:"justify" }}
+                    style={{ backgroundColor:"#EF836D",display:"block",margin:"auto",align:"justify" }}
                   >
                     <b>Gönder</b>
                   </button>

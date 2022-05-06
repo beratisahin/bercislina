@@ -18,10 +18,10 @@
    font-size: medium;
 }
 .owlCarouselImage{
-   height: 11rem;
-   width: 11rem;
+   height: 10rem;
+   width: 10rem;
    border-radius: 1rem;
-   border: 2px groove #e10487;
+   border: 1px groove lightgray;
    padding: 2px !important;
 }
 /* Opacity #1 */
@@ -32,7 +32,7 @@
 }
 .owlCarouselImage:hover{
 	opacity: .5;
-   border: 3px groove #eebf2a;
+   border: 3px groove #168B80;;
 }
 
 
@@ -50,14 +50,12 @@
      }
      .owlCarouselImage{
        height: 8rem !important;
-      
        
       
      }
      .owlCarouselTemp{
       display: block !important;
       justify-content: center !important;
-      
       
       
    }

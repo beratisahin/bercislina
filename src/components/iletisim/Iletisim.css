@@ -1,13 +1,15 @@
+
 .contact{
   
     width: 100%;
     display: block;
     
     
+    
 
 }
 .gonder:hover{
-    background-color: #A1048C !important;
+    background-color: #f8d633 !important;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -17,7 +19,6 @@
         font-size: large !important;
         padding-left: -1rem !important;
         font-weight: bold !important;
-        padding-bottom: 3rem !important;
 
         
       
@@ -50,6 +51,11 @@
     .gonder{
         justify-content:center !important;
         margin-left: -2rem !important;
+    }
+    .contactFormTemp{
+        background-color:#DCDCDC !important; 
+        background-image: none !important; 
+        
     }
     
 
