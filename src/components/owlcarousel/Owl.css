@@ -19,7 +19,7 @@
 }
 .owlCarouselImage{
    height: 10rem;
-   width: 10rem;
+   width: 11rem;
    border-radius: 1rem;
    border: 1px groove lightgray;
    padding: 2px !important;
@@ -42,8 +42,8 @@
 @media screen and (max-width: 700px) {
     
      .owl-roof{
-         margin: .5rem !important;
-         width:90% !important;
+         margin: 0.5rem !important;
+         width:100% !important;
      }
      .owlCarouselContent{
         font-size: small !important;

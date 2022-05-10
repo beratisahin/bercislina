@@ -5,7 +5,7 @@
     margin-top: 1rem;  
  }
  .owlCarouselTempKlinik{
-    
+    margin-left: 5px !important;
     border-radius: 1rem; 
     height: auto;
     width: 90%;
@@ -19,8 +19,8 @@
  }
  .owlCarouselImageKlinik{
     height: 25rem;
-    width: 25rem;
-    margin-left: .5rem;
+    width: 100% !important;
+    margin-left: 1rem !important;
     border-radius: 1rem;
     border: 1px groove lightgray;
     padding: 2px !important;

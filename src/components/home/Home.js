@@ -54,7 +54,7 @@ function Home() {
       <br/>
       <hr/>
       
-      <div className="col-12" style={{margin:"auto",justifyContent:"center",marginLeft:"1.5rem"}}>
+      <div className="col-12" style={{margin:"auto",justifyContent:"center"}}>
             <OwlCarousel/>
       </div>
       <hr/>
