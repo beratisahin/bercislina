@@ -54,61 +54,61 @@ const options = {
 
 export default function Klinik() {
     return (
-        <div class="col-12" style={{width:"100%",display:"flex",justifyContent:"center",flexWrap:"wrap",marginLeft:"5px"}}>
+        <div class="col-12" style={{width:"100%",display:"flex",justifyContent:"center",flexWrap:"wrap"}}>
             <OwlCarousel className="owl-theme owl-roof" {...options}>
                  <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r1} className="owlCarouselImageKlinik" loading="lazy" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={r1} className="owlCarouselImageKlinik" loading="lazy" alt="Erzurum Blue Liva Güzellik Salonu" title="Erzurum Blue Liva Güzellik Salonu"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r2} className="owlCarouselImageKlinik" loading="lazy" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={r2} className="owlCarouselImageKlinik" loading="lazy" alt="Erzurum Blue Liva Güzellik Salonu" title="Erzurum Blue Liva Güzellik Salonu"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r3} className="owlCarouselImageKlinik" loading="lazy" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={r3} className="owlCarouselImageKlinik" loading="lazy" alt="Erzurum Blue Liva Güzellik Salonu" title="Erzurum Blue Liva Güzellik Salonu"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r4} className="owlCarouselImageKlinik" loading="lazy" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={r4} className="owlCarouselImageKlinik" loading="lazy" alt="Erzurum Blue Liva Güzellik Salonu" title="Erzurum Blue Liva Güzellik Salonu"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r5} className="owlCarouselImageKlinik" loading="lazy" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={r5} className="owlCarouselImageKlinik" loading="lazy" alt="Erzurum Blue Liva Güzellik Salonu" title="Erzurum Blue Liva Güzellik Salonu"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r6} className="owlCarouselImageKlinik" loading="lazy" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={r6} className="owlCarouselImageKlinik" loading="lazy" alt="Erzurum Blue Liva Güzellik Salonu" title="Erzurum Blue Liva Güzellik Salonu"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r7} className="owlCarouselImageKlinik" loading="lazy" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={r7} className="owlCarouselImageKlinik" loading="lazy" alt="Erzurum Blue Liva Güzellik Salonu" title="Erzurum Blue Liva Güzellik Salonu"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r8} className="owlCarouselImageKlinik" loading="lazy" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={r8} className="owlCarouselImageKlinik" loading="lazy" alt="Erzurum Blue Liva Güzellik Salonu" title="Erzurum Blue Liva Güzellik Salonu"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r9} className="owlCarouselImageKlinik" loading="lazy" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={r9} className="owlCarouselImageKlinik" loading="lazy" alt="Erzurum Blue Liva Güzellik Salonu" title="Erzurum Blue Liva Güzellik Salonu"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r10} className="owlCarouselImageKlinik" loading="lazy" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={r10} className="owlCarouselImageKlinik" loading="lazy" alt="Erzurum Blue Liva Güzellik Salonu" title="Erzurum Blue Liva Güzellik Salonu"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src={r11} className="owlCarouselImageKlinik" loading="lazy" alt="Tokat İlgi Kurs Merkezi" title="Tokat İlgi Kurs Merkezi"></img>
+                        <img src={r11} className="owlCarouselImageKlinik" loading="lazy" alt="Erzurum Blue Liva Güzellik Salonu" title="Erzurum Blue Liva Güzellik Salonu"></img>
                     </div>
                 </div>
               

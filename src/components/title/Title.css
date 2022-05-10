@@ -32,8 +32,9 @@
         height: 7rem !important;
     }
     .page_header_icon{
-        width: 6rem !important;
-        height: 6rem !important;
+        width: 10rem !important;
+        height: 8rem !important;
+        margin-top: 0 !important;
     }
     .page_header_home{
         display: none !important;

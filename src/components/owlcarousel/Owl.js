@@ -55,7 +55,7 @@ export default function Owl() {
     
     return (
         
-       
+        <div class="col-12" style={{width:"100%",display:"flex",justifyContent:"center",flexWrap:"wrap"}}>
         <OwlCarousel className="owl-theme owl-roof" {...options}>
 
             <div className="item owl-slider">
@@ -153,7 +153,7 @@ export default function Owl() {
            
         </OwlCarousel>
 
-        
+       </div> 
       
     )
 }

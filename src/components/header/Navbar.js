@@ -53,8 +53,8 @@ export default class Navbar extends Component {
               <li><a href="/medikal-cilt-bakimi" class="menu-link">Medikal Cilt Bakımı</a></li>
               <li><a href="/tum-vucut-lazer-epilasyon" class="menu-link">Tüm Vücut Lazer Epilasyon</a></li>
               <li><a href="/hydrafacial-cilt-bakimi" class="menu-link">Hydrafacial Cilt Bakımı</a></li>
-              <li><a href="/g5-masajı-selulit-sikilastirma" class="menu-link">G5 Masajı - Selülit Sıkılaştırma</a></li>
-              <li><a href="/ense-boyun-yanak-epilasyon" class="menu-link">Ense - Yanak - Boyun Epilasyon</a></li>
+              <li><a href="/g5-masaji-selulit-sikilastirma" class="menu-link">G5 Masajı - Selülit Sıkılaştırma</a></li>
+              <li><a href="/ense-yanak-boyun-epilasyon" class="menu-link">Ense - Yanak - Boyun Epilasyon</a></li>
               <li><a href="/bikini-bolgesi" class="menu-link">Bikini Bölgesi</a></li>
 
             
