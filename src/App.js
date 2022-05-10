@@ -9,12 +9,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./components/home/Home.js";
-import Hakkimizda from "./components/kurumsal/hakkimizda/Hakkimizda";
-import Belgerimiz from "./components/kurumsal/belgelerimiz/Belgelerimiz";
-import Referanslarimiz from "./components/kurumsal/referanslarimiz/Referanslarimiz";
-import Ekibimiz from "./components/kurumsal/ekibimiz/Ekibimiz";
-import IsBasvurusu from "./components/kurumsal/is-basvurusu/IsBasvurusu";
-import SSS from "./components/kurumsal/s.s.s/Sss";
+import Hakkimizda from "./components/hakkimizda/Hakkimizda.js";
 import CalismaPrensibimiz from "./components/calisma-prensibimiz/CalismaPrensibimiz";
 import Galeri from "./components/galeri/Galeri";
 import Blog from "./components/blog/Blog";
@@ -28,28 +23,20 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/*<h1 style={{textAlign:"center",margin:"auto",verticalAlign:"center"}}>Sitemiz yapım aşamasındadır.</h1> */}
-        <div className="col-12 m-0 p-0" >
+        
+       
           
           <div className="col-12 m-0 p-0">
             <Navbar />
-          </div>
+          
 
           <Switch>
-            <Route path="/" component={Home} /> 
-            <Route path="/hakkimizda" component={Hakkimizda} />
-            <Route path="/belgelerimiz" component={Belgerimiz} />
-            <Route path="/referanslarimiz" component={Referanslarimiz} />
-            <Route path="/ekibimiz" component={Ekibimiz} />
-            <Route path="/is-basvurusu" component={IsBasvurusu} />
-            <Route path="/sss" component={SSS} />
-
-         
-
-            <Route path="/calisma-prensibimiz" component={CalismaPrensibimiz} />
-            <Route path="/galeri" component={Galeri} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/iletisim" component={Iletisim} />
+            <Route exact path="/" component={Home} /> 
+            <Route exact path="/hakkimizda" component={Hakkimizda} />
+            <Route exact path="/calisma-prensibimiz" component={CalismaPrensibimiz} />
+            <Route exact path="/galeri" component={Galeri} />
+            <Route exact path="/blog" component={Blog} />
+            <Route exact path="/iletisim" component={Iletisim} />
 
             <Route exact path="/admin" component={Admin} />
            
@@ -61,9 +48,9 @@ function App() {
             <Foooter />
           </div>
           
-          
+          </div> 
         </div>
-      </div>
+      
     </Router>
   );
 }

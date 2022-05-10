@@ -34,7 +34,7 @@ export default class Navbar extends Component {
          <header>
           <nav class="navbar">
             <div class="branding">
-              <a href="/anasayfa">
+              <a href="/">
                 <img  className="BlueLivaLogo" title="Erzurum Blue Liva Güzellik Salonu" src={Logo}></img>
               </a>
                 
@@ -75,7 +75,7 @@ export default class Navbar extends Component {
             </ul>
           </li>
          
-          <li><a href="/duyurular" class="menu-link" style={{fontSize:"medium"}}><ContactlessIcon style={{fontSize:"medium"}}/>&nbsp;Duyurular</a></li>
+          <li><a href="/blog" class="menu-link" style={{fontSize:"medium"}}><ContactlessIcon style={{fontSize:"medium"}}/>&nbsp;Blog</a></li>
           <li><a href="/iletisim" class="menu-link" style={{fontSize:"medium"}}><ContactMailIcon style={{fontSize:"medium"}}/>&nbsp;İletişim</a></li>
         </ul>
 
