@@ -49,7 +49,7 @@ export default class Foooter extends Component {
               }}
             >
               {" "}
-              Kurulduğumuz günden bu yana istikrarlı bir büyüme kaydetmiş ve her geçen gün gücüne güç katmıştır. Bu süreçte birçok meslek dalında öğrenci yetiştirmiş en seçkin öğrenci guruplarını sınava hazırlamış ve sonuçlar alarak, danışmanlık ve eğitim hizmetlerinde ön sıralarda kendine yer edinmiştir. İlgi Kurs Merkezi, alanında uzman yönetici kadrosu, eğitim koçları ve güçlü öğretmen kadrosu ile birlikte kaliteli eğitimi en sağlıklı şekilde vermeyi amaç edinmiştir.
+              Erzurum Blue Liva Güzellik Salonu olarak şehrin merkezinde bulunan salonumuzda siz değerli müşterilerimize hizmet vermekteyiz. Bayanlar ve baylar için epilasyon ve cilt bakım hizmetlerimiz bulunmaktadır. Erkekler için ense, boyun, yanak, göbek, göğüs, sırt, bacak ve kol bölgeleri epilasyon hizmetimiz vardır. Ayrıca medikal ve hydrafacial cilt bakımlarımız da bulunmaktadır. Bayanlar için tüm vücut, bikini bölgesi için epilasyon hizmetlerimiz mevcuttur. Hydrafacial ve medikal cilt bakımlarımız bulunmaktadır. G5 masajı, selülit sıkılaştırma, bölgesel inceltme hizmetlerimiz mevcuttur. RobotX marka epilasyon cihazlarımızla 6 odalı salonumuzda aynı anda birkaç müşterimize hizmet verebilmekteyiz.
             </p>
           </div>
 

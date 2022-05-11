@@ -22,7 +22,7 @@ export default function TopluHizmet() {
                     taslaktitle="Medikal Cilt Bakımı"
                     taslakphoto={m2}
                     taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-                    taslaklink="/tecrubeli-ogretmen-kadrosu"
+                    taslaklink="/medikal-cilt-bakimi"
                 />
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -30,7 +30,7 @@ export default function TopluHizmet() {
                     taslaktitle="Tüm Vücut Lazer Epilasyon"
                     taslakphoto={m5}
                     taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-                    taslaklink="/profesyonel-ogrenci-koclugu"
+                    taslaklink="/tum-vucut-lazer-epilasyon"
                 />
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -38,7 +38,7 @@ export default function TopluHizmet() {
                     taslaktitle="Hydrafacial Cilt Bakımı"
                     taslakphoto={m3}
                     taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-                    taslaklink="/soru-cozum-ve-etut-saatleri"
+                    taslaklink="/hydrafacial-cilt-bakimi"
                 />      
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -46,7 +46,7 @@ export default function TopluHizmet() {
                     taslaktitle="G5 Masajı - Selülit Sıkılaştırma"
                     taslakphoto={m4}
                     taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-                    taslaklink="/turkiye-geneli-deneme-sinavi"
+                    taslaklink="/g5-masaji-selulit-sikilastirma"
                 />
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -54,7 +54,7 @@ export default function TopluHizmet() {
                     taslaktitle="Ense - Boyun - Yanak"
                     taslakphoto={m1}
                     taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-                    taslaklink="/okul-ve-odev-takip-sistemi"
+                    taslaklink="/ense-yanak-boyun-epilasyon"
                 />
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -62,7 +62,7 @@ export default function TopluHizmet() {
                     taslaktitle="Bikini Bölgesi "
                     taslakphoto={m6}
                     taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-                    taslaklink="/kaliteli-yayinlar"
+                    taslaklink="/bikini-bolgesi"
                 />
             </div>
             

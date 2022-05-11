@@ -9,7 +9,7 @@ export default function G5Masajı() {
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
                <Title 
-                    page_title="G5 Masajı - Selülit Sıkılaştırma"
+                    page_title="G5 Masajı"
                />
                 
                 <div className="card-body col-12" style={{padding:"3rem"}}>
