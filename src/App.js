@@ -20,8 +20,8 @@ import Medikal from "./components/hizmetler/MedikalCiltBakimi";
 import Tum from "./components/hizmetler/TumVucutLazerEpilasyon";
 import Hydrafacial from "./components/hizmetler/HydrafacialCiltBakimi";
 import G5 from "./components/hizmetler/G5Masaji";
-import Ense from "./components/hizmetler/EnseYanakBoyunEpilasyon";
-import Bikini from "./components/hizmetler/BikiniBolgesi";
+import KirpikLifting from "./components/hizmetler/EnseYanakBoyunEpilasyon";
+import KasLaminasyonu from "./components/hizmetler/BikiniBolgesi";
 
 import Cihazlar from "./components/hizmetler/Urunler";
 
@@ -45,11 +45,11 @@ function App() {
             <Route exact path="/iletisim" component={Iletisim} />
             
             <Route exact path="/medikal-cilt-bakimi" component={Medikal}/>
-            <Route exact path="/tum-vucut-lazer-epilasyon" component={Tum}/>
+            <Route exact path="/robotix-lazer-epilasyon" component={Tum}/>
             <Route exact path="/hydrafacial-cilt-bakimi" component={Hydrafacial}/>
-            <Route exact path="/g5-masaji-selulit-sikilastirma" component={G5}/>
-            <Route exact path="/ense-yanak-boyun-epilasyon" component={Ense}/>
-            <Route exact path="/bikini-bolgesi" component={Bikini}/>
+            <Route exact path="/g5-kavitasyon" component={G5}/>
+            <Route exact path="/kirpik-lifting" component={KirpikLifting}/>
+            <Route exact path="/kas-laminasyonu" component={KasLaminasyonu}/>
 
             <Route exact path="/cihazlarimiz" component={Cihazlar}/>
 

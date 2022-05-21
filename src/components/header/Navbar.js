@@ -49,11 +49,11 @@ export default class Navbar extends Component {
             <ul class="submenu">
 
               <li><a href="/medikal-cilt-bakimi" class="menu-link">Medikal Cilt Bakımı</a></li>
-              <li><a href="/tum-vucut-lazer-epilasyon" class="menu-link">Tüm Vücut Lazer Epilasyon</a></li>
+              <li><a href="/robotx-lazer-epilasyon" class="menu-link">RobotX Lazer Epilasyon</a></li>
               <li><a href="/hydrafacial-cilt-bakimi" class="menu-link">Hydrafacial Cilt Bakımı</a></li>
-              <li><a href="/g5-masaji-selulit-sikilastirma" class="menu-link">G5 Masajı - Selülit Sıkılaştırma</a></li>
-              <li><a href="/ense-yanak-boyun-epilasyon" class="menu-link">Ense - Yanak - Boyun Epilasyon</a></li>
-              <li><a href="/bikini-bolgesi" class="menu-link">Bikini Bölgesi</a></li>
+              <li><a href="/g5-kavitasyon" class="menu-link">G5 Masajı - Kavitasyon</a></li>
+              <li><a href="/kirpik-lifting" class="menu-link">Kirpik Lifting</a></li>
+              <li><a href="/kas-laminasyonu" class="menu-link">Kaş Laminasyonu</a></li>
 
             
               

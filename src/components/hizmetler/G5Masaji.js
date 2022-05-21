@@ -4,12 +4,12 @@ import useDocumentTitle from "../../useDocumentTitle";
 import Title from "../title/Title";
 
 export default function G5Masajı() {
-    useDocumentTitle('G5 Masajı - Selülit Sıkılaştırma - Erzurum Blue Liva Güzellik Salonu');
+    useDocumentTitle('G5 Masajı - Kavitasyon - Erzurum Blue Liva Güzellik Salonu');
     return (
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
                <Title 
-                    page_title="G5 Masajı"
+                    page_title="G5 Masajı - Kavitasyon"
                />
                 
                 <div className="card-body col-12" style={{padding:"3rem"}}>

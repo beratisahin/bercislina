@@ -27,10 +27,10 @@ export default function TopluHizmet() {
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                 <Taslak 
-                    taslaktitle="Tüm Vücut Lazer Epilasyon"
+                    taslaktitle="Robotix Lazer Epilasyon"
                     taslakphoto={m5}
                     taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-                    taslaklink="/tum-vucut-lazer-epilasyon"
+                    taslaklink="/robotix-lazer-epilasyon"
                 />
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -43,26 +43,26 @@ export default function TopluHizmet() {
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                 <Taslak 
-                    taslaktitle="G5 Masajı - Selülit Sıkılaştırma"
+                    taslaktitle="G5 Masajı - Kavitasyon"
                     taslakphoto={m4}
                     taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-                    taslaklink="/g5-masaji-selulit-sikilastirma"
+                    taslaklink="/g5-kavitasyon"
                 />
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                 <Taslak 
-                    taslaktitle="Ense - Boyun - Yanak"
+                    taslaktitle="Kirpik Lifting"
                     taslakphoto={m1}
                     taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-                    taslaklink="/ense-yanak-boyun-epilasyon"
+                    taslaklink="/kirpik-lifting"
                 />
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                 <Taslak 
-                    taslaktitle="Bikini Bölgesi "
+                    taslaktitle="Kaş Laminasyonu "
                     taslakphoto={m6}
                     taslaktext="Blue Liva Güzellik Salonu olarak siz değerli müşterilerimize lazer epilasyon, cilt bakımı ve bölgesel incelme vb alanlarda hizmet vermekteyiz."
-                    taslaklink="/bikini-bolgesi"
+                    taslaklink="/kas-laminasyonu"
                 />
             </div>
             
