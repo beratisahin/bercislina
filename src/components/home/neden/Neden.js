@@ -15,27 +15,27 @@ export default class Neden extends Component {
         return (
             <div className="row neden" style={{margin:"0%",padding:"1%",backgroundColor:"#EFEFEF",borderRadius:"1rem"}}>
                     <div className="col-12">
-                    <p style={{color:"#ff9c89",textAlign:"center",fontSize:"20px"}}>Neden Blue Liva Güzellik Salonu</p>
+                    <p style={{color:"#daac1d",textAlign:"center",fontSize:"20px"}}>Neden Erzurum Blue Liva Güzellik Salonu</p>
                     <br/>
                     </div>
                    
                    
                    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                         
-                        <p class="card-baslik"><InsertEmoticonIcon style={{color:"#ff9c89",fontSize:"larger"}}/>&nbsp; Müşteri Memnuniyeti</p>
+                        <p class="card-baslik"><InsertEmoticonIcon style={{color:"#daac1d",fontSize:"larger"}}/>&nbsp; Müşteri Memnuniyeti</p>
                         <p class="card-neden"> 
                         Temel önceliğimiz müşterilerimizin memnuniyetidir.</p>
                         
                    </div>
                 
                    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <p class="card-baslik"><PeopleIcon style={{color:"#ff9c89",fontSize:"larger"}}/>&nbsp; Uzman Kadro</p>
+                        <p class="card-baslik"><PeopleIcon style={{color:"#daac1d",fontSize:"larger"}}/>&nbsp; Uzman Kadro</p>
                         <p class="card-neden"> Alanında uzman profesyonel bir kadro yapısıyla sağlık hizmeti veririz.</p>
                         
                    </div>
                   
                    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <p class="card-baslik"><AssignmentTurnedInIcon style={{color:"#ff9c89",fontSize:"larger"}}/>&nbsp; Kaliteli Hizmet</p>
+                        <p class="card-baslik"><AssignmentTurnedInIcon style={{color:"#daac1d",fontSize:"larger"}}/>&nbsp; Kaliteli Hizmet</p>
                         <p class="card-neden"> Müşterilerimize kaliteli hizmetler sunmaktayız.</p>
                         
                    </div>
@@ -43,20 +43,20 @@ export default class Neden extends Component {
                   
                 
                    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <p class="card-baslik"><EcoIcon style={{color:"#ff9c89",fontSize:"larger"}}/>&nbsp; Hijyenik Ortam</p>
+                        <p class="card-baslik"><EcoIcon style={{color:"#daac1d",fontSize:"larger"}}/>&nbsp; Hijyenik Ortam</p>
                         <p class="card-neden">  Müşterilerimize hijyenik çalışma ortamları sunmaktayız.</p>
                         
                    </div>
                   
                    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <p class="card-baslik"><HowToRegIcon style={{color:"#ff9c89",fontSize:"larger"}}/>&nbsp; Yılların Tecrübesi</p>
+                        <p class="card-baslik"><HowToRegIcon style={{color:"#daac1d",fontSize:"larger"}}/>&nbsp; Yılların Tecrübesi</p>
                         <p class="card-neden"> Yılların tecrübesini müşterilerimize katkı sağlamak için sunarız.</p>
                        
                    </div>
 
                    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                         
-                        <p class="card-baslik"><SecurityIcon style={{color:"#ff9c89",fontSize:"larger"}}/>&nbsp; Güvenilirlik</p>
+                        <p class="card-baslik"><SecurityIcon style={{color:"#daac1d",fontSize:"larger"}}/>&nbsp; Güvenilirlik</p>
                         <p class="card-neden"> Karşılıklı güven içerisinde hizmet vermeye önem veririz.</p>
                         
                    </div>

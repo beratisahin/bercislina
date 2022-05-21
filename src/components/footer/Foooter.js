@@ -55,7 +55,7 @@ export default class Foooter extends Component {
 
 
           <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{ fontSize: "12px",marginBottom:"2rem"  }}>
-            <b style={{ color: "#EF836D", fontSize: "18px" }}>Çalışma Takvimi</b>
+            <b style={{ color: "#daac1d", fontSize: "18px" }}>Çalışma Takvimi</b>
             <hr/>
             <table class="table table-striped" >
                     
@@ -97,7 +97,7 @@ export default class Foooter extends Component {
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{ fontSize: "15px",marginBottom:"2rem"  }}>
-            <p style={{ color: "#EF836D", fontWeight: "bold", fontSize: "18px" }}>
+            <p style={{ color: "#daac1d", fontWeight: "bold", fontSize: "18px" }}>
               Erzurum Blue Liva Güzellik Salonu
             </p>
             <hr/>

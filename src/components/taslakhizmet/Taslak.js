@@ -20,9 +20,9 @@ render() {
         
                         <a href={taslaklink} class="read-more">Daha Fazla Bilgi</a>
                         <div class="icon-links"> 
-                                <a href="#"><i class="fa-solid fa-leaf"></i></a>  
-                                <a href="#"><i class="fa-solid fa-crown"></i></a>
-                                <a href="#"><i class="fas fa-heart"></i></a>
+                                <a href="#"><i class="fa-solid fa-leaf" style={{color:"#daac1d"}}></i></a>  
+                                <a href="#"><i class="fa-solid fa-crown" style={{color:"#daac1d"}}></i></a>
+                                <a href="#"><i class="fas fa-heart" style={{color:"#daac1d"}}></i></a>
                                 
                              
                         </div>
