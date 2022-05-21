@@ -45,7 +45,7 @@ function Home() {
       <br/>
       <hr/>
       <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#daac1d",fontFamily: "'Times New Roman', Times, serif;"}}>Kampanyalar</h2>
-      <div className="row">
+      <div className="col-12">
       
          <Klinik/>
       </div>
