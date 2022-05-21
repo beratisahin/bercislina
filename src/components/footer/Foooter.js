@@ -55,38 +55,38 @@ export default class Foooter extends Component {
 
 
           <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{ fontSize: "12px",marginBottom:"2rem"  }}>
-            <b style={{ color: "#daac1d", fontSize: "18px" }}>Çalışma Takvimi</b>
+            <b style={{ color: "#daac1d", fontSize: "18px" }}>Çalışma Saatleri</b>
             <hr/>
             <table class="table table-striped" >
                     
                     <tbody>
                         <tr style={{height:"2px"}}>
                             <td>Pazartesi</td>
-                            <td>09:00 - 22:00</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Salı</td>
-                            <td>09:00 - 22:00</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Çarşamba</td>
-                            <td>09:00 - 22:00</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Perşembe</td>
-                            <td>09:00 - 22:00</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Cuma</td>
-                            <td>09:00 - 22:00</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Cumartesi</td>
-                            <td>09:00 - 22:00</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                         <tr>
                             <td>Pazar</td>
-                            <td>09:00 - 22:00</td>
+                            <td>09:00 - 19:00</td>
                         </tr>
                       
                     </tbody>

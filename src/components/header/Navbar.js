@@ -8,11 +8,9 @@ import CameraAltIcon from '@material-ui/icons/CameraAlt';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import HomeIcon from '@material-ui/icons/Home';
 import CastForEducationIcon from '@material-ui/icons/CastForEducation';
-import AcUnitIcon from '@material-ui/icons/AcUnit';
 import ContactlessIcon from '@material-ui/icons/Contactless';
 import Logo from "./BlueLivaMenuLogo.PNG";
-
-
+import CategoryIcon from '@material-ui/icons/Category';
 
 export default class Navbar extends Component {
   componentDidMount () {
@@ -45,7 +43,7 @@ export default class Navbar extends Component {
           <li><a href="/" class="menu-link" style={{fontSize:"medium"}}><HomeIcon style={{fontSize:"medium"}}/>&nbsp;Ana Sayfa</a></li>
           <li><a href="/hakkimizda" class="menu-link" style={{fontSize:"medium"}}><BusinessIcon style={{fontSize:"medium"}}/>&nbsp;Hakkımızda</a></li>
           <li class="has-dropdown">
-            <a href="#" class="menu-link" style={{fontSize:"medium"}}><CastForEducationIcon style={{fontSize:"medium"}}/>&nbsp;Hizmetlerimiz &nbsp;
+            <a href="#" class="menu-link" style={{fontSize:"medium"}}><i class="fa-regular fa-snowflake"></i>&nbsp;Hizmetlerimiz &nbsp;
               <span class="arrow"></span>
             </a>
             <ul class="submenu">
@@ -61,8 +59,9 @@ export default class Navbar extends Component {
               
             </ul>
           </li>
-          <li><a href="/urunlerimiz" class="menu-link" style={{fontSize:"medium"}}><ContactlessIcon style={{fontSize:"medium"}}/>&nbsp;Ürünlerimiz</a></li>
+          <li><a href="/cihazlarimiz" class="menu-link" style={{fontSize:"medium"}}><CategoryIcon style={{fontSize:"medium"}}/>&nbsp;Cihazlarımız</a></li>
           <li class="has-dropdown" >
+          
             <a href="#" class="menu-link" style={{fontSize:"medium"}}><CameraAltIcon style={{fontSize:"medium"}}/>&nbsp;Galeri &nbsp;
               <span class="arrow"></span>
             </a>

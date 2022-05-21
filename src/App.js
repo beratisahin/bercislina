@@ -23,6 +23,7 @@ import G5 from "./components/hizmetler/G5Masaji";
 import Ense from "./components/hizmetler/EnseYanakBoyunEpilasyon";
 import Bikini from "./components/hizmetler/BikiniBolgesi";
 
+import Cihazlar from "./components/hizmetler/Urunler";
 
 function App() {
   return (
@@ -49,6 +50,9 @@ function App() {
             <Route exact path="/g5-masaji-selulit-sikilastirma" component={G5}/>
             <Route exact path="/ense-yanak-boyun-epilasyon" component={Ense}/>
             <Route exact path="/bikini-bolgesi" component={Bikini}/>
+
+            <Route exact path="/cihazlarimiz" component={Cihazlar}/>
+
 
             <Route exact path="/admin" component={Admin} />
            
