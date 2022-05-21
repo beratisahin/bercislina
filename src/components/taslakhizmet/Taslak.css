@@ -77,7 +77,7 @@
   }
   
   .image:hover .details h2{
-    transform:translateY(-40px) !important;
+    transform:translateY(-60px) !important;
   }
   
   .image .details p{
@@ -94,7 +94,7 @@
   
   .image:hover .details p{
     opacity: 1;
-    transform:translateY(-40px);
+    transform:translateY(-55px) !important;
   }
   
   .more{
@@ -204,6 +204,7 @@
     .image{
         height: 180px;
     }
+   
   }
   
   

@@ -4,6 +4,7 @@ import useDocumentTitle from "../../useDocumentTitle";
 import Title from "../title/Title";
 import Hydrafacial from "./hydrafacial.png";
 import Hydrafacial2 from "./hydra2.jpg";
+import RobotX from "./robotx.png";
 
 export default function Urunler() {
     useDocumentTitle('Cihazlarımız- Erzurum Blue Liva Güzellik Salonu');
@@ -24,7 +25,7 @@ export default function Urunler() {
 <div id="collapseOne"  class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body" >
         <div>
-        <img class="accPho" alt="" src="https://www.capitalmedikal.com/upload/robotx-micro.png" style={{width: "200px", height:"366px"}}></img>
+        <img class="accPho" alt="" src={RobotX} style={{width: "30%", height:"500px"}}></img>
         <p class="urunbaslik">MİKROSKOP ASİSTANLI LAZER EPİLASYON CİHAZI</p>
         <p class="urunyazi">Epilasyona etki eden faktörlerin başında kılın kalınlığı, derinliği ve rengi gelmektedir. Ayrıca cildin rengi ve kılın bulunduğu bölgeye göre de uygulanması gereken işlem değişkenlik göstermektedir. Örneğin yüz bölgesinde bulunan ince ve açık renkli tüylerde 810 nm Diode dalga boyu etkili olurken bacak bölgesindeki kalın ve koyu renkli tüylerde 755 nm Alexandrite dalga boyu etkilidir.
 
