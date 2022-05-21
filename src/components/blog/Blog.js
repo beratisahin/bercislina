@@ -36,7 +36,7 @@ export default function Blog() {
 
     useDocumentTitle('Blog - Erzurum Blue Liva Güzellik Salonu');
     return (
-      <div className="row mr-4" style={{marginLeft:"10px"}} >
+      <div className="col-12">
         <div style={{marginTop:"10px",justifyContent:"flex-end !important"}}>
         <Title 
                 page_title="Blog"
