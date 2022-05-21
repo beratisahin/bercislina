@@ -1,0 +1,30 @@
+.accPho{
+    float:left !important;
+    margin: 0 0 0 15px !important;
+}
+.accordion-body{
+    height: auto !important;
+}
+.accordion-button{
+    font-size: large !important;
+}
+#collapseOne{
+    background-color:#F7F7DF;
+    height:auto;
+    overflow:hidden;
+
+}
+
+#collapseTwo{
+    background-color:#C8FDE1;
+    height:auto;
+    overflow:hidden;
+    
+}
+
+#collapseThree{
+    background-color:#CBD7B8;
+    height:auto;
+    overflow:hidden;
+    
+}
