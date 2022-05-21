@@ -9,22 +9,36 @@
     font-size: large !important;
 }
 #collapseOne{
-    background-color:#F7F7DF;
+    
     height:auto;
     overflow:hidden;
 
 }
 
 #collapseTwo{
-    background-color:#C8FDE1;
+    
     height:auto;
     overflow:hidden;
     
 }
 
-#collapseThree{
-    background-color:#CBD7B8;
-    height:auto;
-    overflow:hidden;
-    
+
+.urunyazi{
+    font-size: medium !important;
+    text-align: justify !important;
+}
+.urunbaslik{
+    font-size: medium !important;
+    font-weight: bold !important;
+    text-align: left !important;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 700px) {
+    .urunyazi{
+        font-size: small !important;
+    }
+    .urunbaslik{
+        font-size: medium !important;
+    }
 }
