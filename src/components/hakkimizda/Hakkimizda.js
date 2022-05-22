@@ -20,7 +20,10 @@ function Hakkimizda() {
                 <p class="hizmetyazi">Huzurlu atmosferi, güvenliği, teknolojik donanımı, deneyimli güler yüzlü ekibi ile estetik ve güzellik sektöründe Serdivan’da merkezi konumuyla siz değerli müşterilerimizin hizmetinizdedir.
                     Lazer Epilasyon, Dermatolojik ürünlerle Cilt Bakımı, Kalıcı Makyaj, Göz Bakımı, Bölgesel Zayıflama, Saç Kesimi, Saç Boyası (Röfle, Ombre), Profesyonel Makyaj, Kaş Tasarımı, Manikür, Pedikür, Keratin Saç Bakımı, Bitkisel Saç Bakımı, Kaynak, Çıtçıt ve Sir Ağda hizmetlerimiz profosyenel ürünlerle kaliteden ödün vermeden uygulanmaktadır. Ayrıca en son teknoloji Lazer Epilasyon Cihazı ile istenmeyen tüylerden en kısa sürede kurtularak, pürüzsüz bir cilde kavuşuyorsunuz.
                     Ailenizden biri olmayı amaçlayan Erzurum Blue Liva Güzellik Salonu; son derece güvenli, hijyenik ve modern olan ve aynı zamanda zevkli bir tasarıma sahip olan salonu ile değerli müşterilerine kendilerini evlerinde hissedecekleri sıcak, samimi ve konforlu bir ortam sunmaya devam ediyor.
-                </p>     
+                </p> 
+
+                <p class="hizmetyazi">
+                Erzurum Blue Liva Güzellik Salonu olarak şehrin merkezinde bulunan salonumuzda siz değerli müşterilerimize hizmet vermekteyiz. Bayanlar ve baylar için epilasyon ve cilt bakım hizmetlerimiz bulunmaktadır. Erkekler için ense, boyun, yanak, göbek, göğüs, sırt, bacak ve kol bölgeleri epilasyon hizmetimiz vardır. Ayrıca medikal ve hydrafacial cilt bakımlarımız da bulunmaktadır. Bayanlar için tüm vücut, bikini bölgesi için epilasyon hizmetlerimiz mevcuttur. Hydrafacial ve medikal cilt bakımlarımız bulunmaktadır. G5 masajı, selülit sıkılaştırma, bölgesel inceltme hizmetlerimiz mevcuttur. RobotX marka epilasyon cihazlarımızla 6 odalı salonumuzda aynı anda birkaç müşterimize hizmet verebilmekteyiz.</p>    
             </div>
         </div>
         

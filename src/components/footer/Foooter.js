@@ -1,4 +1,4 @@
-import Logo from "../header/BlueLivaMenuLogo.PNG";
+import Logo from "../header/BlueLivaErzurumMenuLogo.PNG";
 import "./Foooter.css";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -36,7 +36,7 @@ export default class Foooter extends Component {
               <img
                 src={Logo}
                 alt="logo"
-                style={{ width: "30rem", height: "12rem",display:"block",align:"center",margin:"auto" }}
+                style={{ width: "100%", height: "12rem",display:"block",align:"center",margin:"auto" }}
               ></img>
             </a>
             <p

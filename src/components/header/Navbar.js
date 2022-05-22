@@ -9,7 +9,7 @@ import ContactMailIcon from '@material-ui/icons/ContactMail';
 import HomeIcon from '@material-ui/icons/Home';
 import CastForEducationIcon from '@material-ui/icons/CastForEducation';
 import ContactlessIcon from '@material-ui/icons/Contactless';
-import Logo from "./BlueLivaMenuLogo.PNG";
+import Logo from "./BlueLivaErzurumMenuLogo.PNG";
 import CategoryIcon from '@material-ui/icons/Category';
 
 export default class Navbar extends Component {
