@@ -1,5 +1,8 @@
+.instaLink{
+    font-size: large !important;
+    
+}
 .instagram{
-	font-size: large !important;
 	text-decoration: none;
 	animation-duration: 50ms;
     animation-name: insta;
@@ -12,3 +15,12 @@
 	from {color: #6ba3d7;}
 	to {color: #daac1d;}
   }
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .instaLink{
+        font-size: medium !important;
+        text-align: justify !important;
+    }
+
+}
