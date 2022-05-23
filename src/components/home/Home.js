@@ -3,7 +3,6 @@ import "./Home.css";
 import NedenBercislina from "../home/neden/Neden.js";
 import Mail from "../iletisim/ContactForm";
 import Slider from "../slider/Slider.js";
-import DoktorOwl from "../doktorlar/DoktorOwl.js";
 import Klinik from "../klinik/Klinik.js";
 import OwlCarousel from "../owlcarousel/Owl.js";
 
@@ -31,15 +30,7 @@ function Home() {
       <div className="row">
         <TopluHizmet/>
       </div>
-      {/*
-          <hr/>
-       <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#daac1d",fontFamily: "'Times New Roman', Times, serif;"}}>Kursumuzdan Videolar</h2>
-      <div className="row">
-       
-        <DoktorOwl/> 
-        
-      </div> 
-      */} 
+     
        
       
       <br/>

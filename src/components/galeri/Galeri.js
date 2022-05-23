@@ -1,16 +1,8 @@
 
 import "./Galeri.css";
-import ciltBakim from "../medya/ciltBakim.PNG";
-import epilasyon from "../medya/epilasyon.PNG";
-import kaliciFondoten from "../medya/kaliciFondoten.PNG";
-import kasKontur from "../medya/kasKontur.PNG";
-import dermaterapi from "../medya/dermaterapi.jpg";
-import kaliciMakyaj from "../medya/kaliciMakyaj.jpg";
 
-import bv5 from "../medya/bV5.PNG";
-import bv6 from "../medya/bV6.jpg";
-import bv7 from "../medya/bV7.png";
-import bv8 from "../medya/bV8.jpg";
+
+
 
 import React, { useState, useEffect } from "react";
 import useDocumentTitle from '../../useDocumentTitle';

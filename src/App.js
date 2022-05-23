@@ -10,7 +10,6 @@ import {
 
 import Home from "./components/home/Home.js";
 import Hakkimizda from "./components/hakkimizda/Hakkimizda.js";
-import CalismaPrensibimiz from "./components/calisma-prensibimiz/CalismaPrensibimiz";
 import Galeri from "./components/galeri/Galeri";
 import Fotograf from "./components/galeri/FotografVideo";
 import Video from "./components/galeri/FotografVideo";
@@ -41,7 +40,6 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} /> 
             <Route exact path="/hakkimizda" component={Hakkimizda} />
-            <Route exact path="/calisma-prensibimiz" component={CalismaPrensibimiz} />
             <Route exact path="/galeri" component={Galeri} />
             <Route exact path="/fotograflar" component={Fotograf} />
             <Route exact path="/videolar" component={Video} />
