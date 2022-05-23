@@ -10,7 +10,7 @@ export default function FotografVideo() {
         <div className="col-12">
             <div className="card m-4" style={{align:"center",backgroundColor:"#f8f7fb",borderRadius:"5px"}}>
                <Title 
-                    page_title="Fotoğraflar"
+                    page_title="Fotoğraf ve Video"
                />
                 <br/>
                 <p className="instaLink" style={{textAlign:"center",color:"red"}}>Detaylı güncel fotoğraf ve videolar için <a className="instagram"  href="https://www.instagram.com/blue_liva/" target="_blank">Blue Liva</a> instagram profilimizi ziyaret edebilirsiniz. </p>
