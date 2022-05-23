@@ -12,6 +12,8 @@ import Home from "./components/home/Home.js";
 import Hakkimizda from "./components/hakkimizda/Hakkimizda.js";
 import CalismaPrensibimiz from "./components/calisma-prensibimiz/CalismaPrensibimiz";
 import Galeri from "./components/galeri/Galeri";
+import Fotograf from "./components/galeri/FotografVideo";
+import Video from "./components/galeri/FotografVideo";
 import Blog from "./components/blog/Blog";
 import Iletisim from "./components/iletisim/ContactForm";
 import Admin from "./components/admin/Admin";
@@ -41,6 +43,8 @@ function App() {
             <Route exact path="/hakkimizda" component={Hakkimizda} />
             <Route exact path="/calisma-prensibimiz" component={CalismaPrensibimiz} />
             <Route exact path="/galeri" component={Galeri} />
+            <Route exact path="/fotograflar" component={Fotograf} />
+            <Route exact path="/videolar" component={Video} />
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/iletisim" component={Iletisim} />
             

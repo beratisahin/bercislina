@@ -46,7 +46,7 @@ function Galeri() {
 
       
 
-        useDocumentTitle('Galeri - Bercislina Epilasyon ve Güzellik Merkezi');
+        useDocumentTitle('Galeri - Erzurum Blue Liva Güzellik Salonu');
     return (
         <div className="row mr-4" style={{marginLeft:"10px"}} >
         <div style={{marginTop:"10px",marginBottom:"10px",justifyContent:"flex-end !important"}}>

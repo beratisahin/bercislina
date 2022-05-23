@@ -1,0 +1,14 @@
+.instagram{
+	font-size: large !important;
+	text-decoration: none;
+	animation-duration: 50ms;
+    animation-name: insta;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* The animation code */
+@keyframes insta{
+	from {color: #6ba3d7;}
+	to {color: #daac1d;}
+  }
