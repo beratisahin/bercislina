@@ -118,7 +118,7 @@ export default class Foooter extends Component {
               <InstagramIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="https://wa.me/+905072132725"
+              href="https://wa.me/+905526350125"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
@@ -126,7 +126,7 @@ export default class Foooter extends Component {
               <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="tel: +905072132725"
+              href="tel: +905075994155"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
@@ -147,14 +147,14 @@ export default class Foooter extends Component {
             <p style={{  fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a
-                href="tel: +905072132725"
+                href="tel: +905075994155"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <SettingsCell style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
-              0507 213 27 25  <FontAwesomeIcon icon="coffee" size="lg" />
+              0507 599 41 55  <FontAwesomeIcon icon="coffee" size="lg" />
               <br />
             <br/>
               <p style={{  fontSize: "14px", textAlign: "left" }}>
@@ -208,13 +208,13 @@ export default class Foooter extends Component {
           </div>
 
           <div className="roof-phone">
-              <a href="tel: +905072132725" className="phone_float" target="_blank" rel="noopener noreferrer">
+              <a href="tel: +905526350125" className="phone_float" target="_blank" rel="noopener noreferrer">
                   <PhoneIcon className="phone-icon"/>  
               </a>
           </div>
 
           <div className="roof-whatsapp">
-              <a href="https://wa.me/+905072132725" className="whatsapp_float" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/+905526350125" className="whatsapp_float" target="_blank" rel="noopener noreferrer">
                   <WhatsAppIcon className="whatsapp-icon"/>
               </a>
           </div>
