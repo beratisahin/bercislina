@@ -126,7 +126,7 @@ export default class Foooter extends Component {
               <WhatsAppIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="tel: +905075994155"
+              href="tel: +905526350125"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
