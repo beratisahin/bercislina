@@ -45,6 +45,10 @@ function Home() {
       <br/>
       <hr/>
       
+      <div className="row m-2 insta_widget">
+          
+          <div class="elfsight-app-1e978246-4600-4c88-8ad0-cb7ec34c6bf3"></div>
+      </div>
       <div className="row" style={{margin:"auto",justifyContent:"center"}}>
             <OwlCarousel/>
       </div>
